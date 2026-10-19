@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "conference_id": "iclr",
+  "conference": "International Conference on Learning Representations",
+  "checked_at": "2026-10-19",
+  "selection_policy": "Curated writing-analysis corpus, not an objective top-35 ranking. Core: mature main-conference papers from 2013 onward (selected papers 2014–2020), informed by official Test of Time recognition, persistent citation/use, topic and contribution diversity; recent official 2026 Outstanding papers separately calibrate current writing. All counted works have actual full main-text narrative reading; scope and source-version limits are explicit. See selection-audit.md.",
+  "papers": [
+    {
+      "id": "ICLR-C01",
+      "work_id": "openreview:Yxz92UuPLQ",
+      "title": "Transformers are Inherently Succinct",
+      "authors": [
+        "Bergsträßer, Pascal",
+        "Cotterell, Ryan",
+        "Lin, Anthony W."
+      ],
+      "year": 2026,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "transformer-expressivity"
+      ],
+      "publication_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f7804e8855efe5554025217abc49315-Abstract-Conference.html",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2510.19315",
+        "openreview": "Yxz92UuPLQ",
+        "proceedings_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f7804e8855efe5554025217abc49315-Abstract-Conference.html"
+      },
+      "selection_reason": "2026官方Outstanding Paper（理论）；用来校准近期理论稿的定义、量词、构造与范围，不将近期认可冒充长期经典。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/",
+          "note": "Official ICLR 2026 Outstanding Paper selection; contemporary recognition only, not a Test of Time claim."
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f7804e8855efe5554025217abc49315-Abstract-Conference.html",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/5f7804e8855efe5554025217abc49315-Paper-Conference.pdf",
+        "version": "Official ICLR 2026 proceedings conference PDF",
+        "format": "pdf",
+        "pages": 21,
+        "sha256": "368b8ceffd698d2a05ae60bc88746c385b5422294e794d2e9a81bff548de6f3a",
+        "read_scope": "正式会刊主文§1–6全文及例子、定理；附录A.4–A.5的精度与LTL翻译证明；PDF pp.1–10,18–20。无经验图表；未逐式审定全部证明。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR-C01.md"
+    },
+    {
+      "id": "ICLR-C02",
+      "work_id": "openreview:VKGTGGcwl6",
+      "title": "LLMs Get Lost In Multi-Turn Conversation",
+      "authors": [
+        "Laban, Philippe",
+        "Hayashi, Hiroaki",
+        "Zhou, Yingbo",
+        "Neville, Jennifer"
+      ],
+      "year": 2026,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "language-model-evaluation"
+      ],
+      "publication_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/59f6421e64707225fdf5b28840679a07-Abstract-Conference.html",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2505.06120",
+        "openreview": "VKGTGGcwl6",
+        "proceedings_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/59f6421e64707225fdf5b28840679a07-Abstract-Conference.html"
+      },
+      "selection_reason": "2026官方Outstanding Paper（经验研究）；用正式终稿校准受控模拟、诊断证据和长讨论压缩，不以受奖代替正确性审核。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/",
+          "note": "Official ICLR 2026 Outstanding Paper selection; contemporary recognition only, not a Test of Time claim."
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/59f6421e64707225fdf5b28840679a07-Abstract-Conference.html",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/59f6421e64707225fdf5b28840679a07-Paper-Conference.pdf",
+        "version": "Official ICLR 2026 proceedings conference PDF; 2025 arXiv v1 separately read for version comparison, not counted as another work",
+        "format": "pdf",
+        "pages": 41,
+        "sha256": "d2b5f711528c08ecf44e4112b2b490de3c2ad84148a904ecb6377e913a2cee42",
+        "read_scope": "正式会刊主文§1–9全文、图1–5/表1；附录B/C/D与F.1–F.4及图6/8/9、表2–4；PDF pp.1–11,17–20,22–25。另读2025作者预印本用于核对结构变化。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR-C02.md"
+    }
+  ]
+}

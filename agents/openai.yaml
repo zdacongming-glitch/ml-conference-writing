@@ -1,0 +1,4 @@
+interface:
+  display_name: "机器学习三大会写作"
+  short_description: "依据经典全文与方向规范改写三大会论文，核验术语，独立无损删改并统一去水印"
+  default_prompt: "请使用 $ml-conference-writing，依据目标会议和研究方向的经典全文修改稿件，核验术语，独立无损删改，再调用统一去水印并核对技术含义。"

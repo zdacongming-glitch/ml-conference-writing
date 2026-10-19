@@ -1,0 +1,1794 @@
+{
+  "schema_version": 1,
+  "conference_id": "neurips",
+  "conference": "NeurIPS / historical NIPS",
+  "checked_at": "2026-10-19",
+  "selection_policy": {
+    "core_target": 35,
+    "calibration_target": 2,
+    "year_range": [
+      2000,
+      2025
+    ],
+    "purpose": "Purposive writing corpus, not an objectively unique top-35 ranking or an inference about acceptance preferences.",
+    "selection_axes": [
+      "verified full conference proceedings identity and track",
+      "official Test of Time recognition where available",
+      "documented continued use or technical influence",
+      "topic, period, contribution and author-group coverage",
+      "distinct narrative tasks"
+    ],
+    "calibration": "Two separately identified 2025 main-track papers from the latest completed annual meeting; recent calibration is not Test of Time recognition.",
+    "reading": "Read means full main-text narrative, figures and captions read from the actual retrieved version; relevant appendices when stated. It does not mean line-by-line proof verification or reproduction.",
+    "deduplication": "Canonical neurips:year:officialhash; DOI and arXiv versions are aliases and never extra counts."
+  },
+  "papers": [
+    {
+      "id": "NEURIPS01",
+      "work_id": "neurips:2000:f9d1152547c0bde01830b7e8bd60024c",
+      "title": "Algorithms for Non-negative Matrix Factorization",
+      "authors": [
+        "Lee, Daniel",
+        "Seung, H. Sebastian"
+      ],
+      "year": 2000,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2000/hash/f9d1152547c0bde01830b7e8bd60024c-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "theory",
+      "topics": [
+        "matrix-factorization",
+        "nonnegative-optimization",
+        "auxiliary-functions"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2000/hash/f9d1152547c0bde01830b7e8bd60024c-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2000/hash/f9d1152547c0bde01830b7e8bd60024c-Abstract.html"
+      },
+      "selection_reason": "以两种目标的乘性更新和统一辅助函数分析提供紧凑理论稿范例；补足早期数值学习与无排行榜叙述。",
+      "recognition_evidence": [
+        {
+          "url": "https://arxiv.org/pdf/1010.1763",
+          "note": "Févotte与Idier 2011作者公开稿第1节第2页明确从Lee–Seung两种辅助函数推广到beta-divergence，并在参考文献对应同题NIPS稿（按出版年记2001）；支持十余年后的技术沿用。仅核读相关引言与身份，不将其全篇算本库已读。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2000/file/f9d1152547c0bde01830b7e8bd60024c-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2000 proceedings PDF",
+        "format": "pdf",
+        "pages": 7,
+        "sha256": "d943865213cbb4c678d783ab20944147d9eaef1756513e9f9388e26471f31305",
+        "read_scope": "Official PDF pp.1–7: all main-text narrative, theorem/lemma explanatory text and Figure 1/caption; visually inspected Figure 1 on p.5. No separate appendix. Proof organization read; no line-by-line proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS01.md"
+    },
+    {
+      "id": "NEURIPS02",
+      "work_id": "neurips:2001:801272ee79cfde7fa5960571fee36b9b",
+      "title": "On Spectral Clustering: Analysis and an algorithm",
+      "authors": [
+        "Ng, Andrew",
+        "Jordan, Michael",
+        "Weiss, Yair"
+      ],
+      "year": 2001,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2001/hash/801272ee79cfde7fa5960571fee36b9b-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "theory",
+      "topics": [
+        "spectral-clustering",
+        "matrix-perturbation",
+        "unsupervised-learning"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2001/hash/801272ee79cfde7fa5960571fee36b9b-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2001/hash/801272ee79cfde7fa5960571fee36b9b-Abstract.html"
+      },
+      "selection_reason": "用理想块结构解释算法，再建立扰动条件并展示几何诊断，覆盖聚类理论与可视化论证。",
+      "recognition_evidence": [
+        {
+          "url": "https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering",
+          "note": "scikit-learn 官方谱聚类用户指南仍将该文列为基础参考，提供持续实现沿用的可核验线索；不据此计算引用量。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2001 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "1f58dcc61d489eed3e726e20e206d5c6bbe473f2c5d899551d95fc977dc4db3f",
+        "read_scope": "Official PDF pp.1–8: full main-text narrative, complete algorithm and assumptions, theorem interpretation, Figure 1 a–l and caption; visually inspected all twelve panels on p.7. No separate appendix. No line-by-line perturbation-proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS02.md"
+    },
+    {
+      "id": "NEURIPS03",
+      "work_id": "neurips:2001:296472c9542ad4d4788d543508116cbc",
+      "title": "Latent Dirichlet Allocation",
+      "authors": [
+        "Blei, David",
+        "Ng, Andrew",
+        "Jordan, Michael"
+      ],
+      "year": 2001,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2001/hash/296472c9542ad4d4788d543508116cbc-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "topic-models",
+        "variational-inference",
+        "discrete-generative-models"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2001/hash/296472c9542ad4d4788d543508116cbc-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2001/hash/296472c9542ad4d4788d543508116cbc-Abstract.html"
+      },
+      "selection_reason": "经典主题模型的会议早期稿，展示模型语义缺口怎样引出潜变量构造、近似推断和多任务验证；与后续期刊扩展稿分开记录。",
+      "recognition_evidence": [
+        {
+          "url": "https://www.jmlr.org/papers/v3/blei03a.html",
+          "note": "同作者 2003 年 JMLR 扩展稿可核验该生成模型及其后续完整论述；不是本次阅读文件，也不把期刊版本页码或年份混入 2001 会议卡。"
+        },
+        {
+          "url": "https://scikit-learn.org/stable/modules/decomposition.html#latentdirichletallocation",
+          "note": "官方工具指南持续实现并讨论 LDA 概念，所引主要为 2003 期刊版；这是同一模型家族的沿用证据，不是 2001 会议版本获奖证明。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2001/file/296472c9542ad4d4788d543508116cbc-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2001 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "4e7a843ddbe61bd3c343da560752e6de4b70083c2da39ca3c0f5a804ac646ab4",
+        "read_scope": "Official NIPS 2001 PDF pp.1–8: all narrative, generative process, variational-algorithm explanations, Figures 1–5/captions and reported protocol; visually inspected pp.2,3,6,7 containing all figures. No separate appendix; did not substitute the longer 2003 JMLR article. No line-by-line derivation audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS03.md"
+    },
+    {
+      "id": "NEURIPS04",
+      "work_id": "neurips:2003:9657c1fffd38824e5ab0472e022e577e",
+      "title": "Gaussian Process Latent Variable Models for Visualisation of High Dimensional Data",
+      "authors": [
+        "Lawrence, Neil"
+      ],
+      "year": 2003,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2003/hash/9657c1fffd38824e5ab0472e022e577e-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "gaussian-processes",
+        "latent-variable-models",
+        "dimensionality-reduction"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2003/hash/9657c1fffd38824e5ab0472e022e577e-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2003/hash/9657c1fffd38824e5ab0472e022e577e-Abstract.html"
+      },
+      "selection_reason": "从 PCA 的对偶概率解释导出非线性潜变量模型，提供特例、计算障碍与可视化证据相连的早期生成模型范例。",
+      "recognition_evidence": [
+        {
+          "url": "https://gpy.readthedocs.io/en/deploy/GPy.models.html",
+          "note": "GPy 官方模型文档保留 GPLVM 实现，提供该模型家族持续可用的实现线索；不声称特定版本与本篇逐式一致，也不声称官方获奖。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2003/file/9657c1fffd38824e5ab0472e022e577e-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2003 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "2a86a4f517bb6a500d4765e2db99ef57364390832642ade68895c95b0e5cf150",
+        "read_scope": "Official PDF pp.1–8: all narrative, Algorithm 1, Figures 1–4 and captions; reread the omitted p.4 extraction segment and visually inspected pp.3–7 because mathematical fonts extracted poorly. No separate appendix; no line-by-line equivalence proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS04.md"
+    },
+    {
+      "id": "NEURIPS05",
+      "work_id": "neurips:2003:87682805257e619d49b8e0dfdc14affa",
+      "title": "Learning with Local and Global Consistency",
+      "authors": [
+        "Zhou, Dengyong",
+        "Bousquet, Olivier",
+        "Lal, Thomas",
+        "Weston, Jason",
+        "Schölkopf, Bernhard"
+      ],
+      "year": 2003,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2003/hash/87682805257e619d49b8e0dfdc14affa-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "semi-supervised-learning",
+        "label-propagation",
+        "graph-regularization"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2003/hash/87682805257e619d49b8e0dfdc14affa-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2003/hash/87682805257e619d49b8e0dfdc14affa-Abstract.html"
+      },
+      "selection_reason": "以结构一致性假设组织图标签传播、闭式与正则化解释，并坦陈模型选择困难及未全面获胜的比较。",
+      "recognition_evidence": [
+        {
+          "url": "https://scikit-learn.org/stable/modules/semi_supervised.html#label-propagation",
+          "note": "官方工具指南持续提供 LabelSpreading 与归一化图正则化叙述，证明此类方法持续实现沿用；不把工具的新增功能追溯成原文已证明的能力。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2003/file/87682805257e619d49b8e0dfdc14affa-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2003 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "a2cd9d7e344c6b934a96791134a549851815c3ffde4891c950e5a4798d574eb5",
+        "read_scope": "Official PDF pp.1–8: all main-text narrative, iterative/closed-form and regularization explanations, Figures 1–5/captions; visually inspected every figure on pp.2,5,6,7. No separate appendix. No proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS05.md"
+    },
+    {
+      "id": "NEURIPS06",
+      "work_id": "neurips:2005:4491777b1aa8b5b32c2e8666dbe1a495",
+      "title": "Sparse Gaussian Processes using Pseudo-inputs",
+      "authors": [
+        "Snelson, Edward",
+        "Ghahramani, Zoubin"
+      ],
+      "year": 2005,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2005/hash/4491777b1aa8b5b32c2e8666dbe1a495-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "gaussian-processes",
+        "sparse-approximation",
+        "inducing-inputs"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2005/hash/4491777b1aa8b5b32c2e8666dbe1a495-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2005/hash/4491777b1aa8b5b32c2e8666dbe1a495-Abstract.html"
+      },
+      "selection_reason": "选择正式 NIPS2005 SPGP 论文替代误列的 JMLR 统一综述候选，覆盖连续诱导位置、核学习和训练预测成本权衡。",
+      "recognition_evidence": [
+        {
+          "url": "https://gpflow.github.io/GPflow/develop/api/gpflow/models/index.html",
+          "note": "GPflow 官方模型文档包含 GPRFITC，提供此稀疏 GP 模型家族的持续实现线索；非引用量或奖项证据。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2005/file/4491777b1aa8b5b32c2e8666dbe1a495-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2005 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "9a7abb231a76b32e2357a0d4a0551a8e8251221b0529dfbf0dc6b6dfff387e50",
+        "read_scope": "Official PDF pp.1–8: full main-text narrative, predictive-distribution and marginal-likelihood construction, Figures 1–4/captions; visually inspected all figure pages pp.4–7 and comparison curves. No appendix. No gradient audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS06.md"
+    },
+    {
+      "id": "NEURIPS07",
+      "work_id": "neurips:2006:5da713a690c067105aeb2fae32403405",
+      "title": "Greedy Layer-Wise Training of Deep Networks",
+      "authors": [
+        "Bengio, Yoshua",
+        "Lamblin, Pascal",
+        "Popovici, Dan",
+        "Larochelle, Hugo"
+      ],
+      "year": 2006,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "empirical-study",
+      "topics": [
+        "deep-learning",
+        "pretraining",
+        "optimization-mechanisms"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html"
+      },
+      "selection_reason": "历史深度学习训练论文，通过意外训练误差现象追加瓶颈对照，提供机制经验研究而非单纯算法扩展的写法。",
+      "recognition_evidence": [
+        {
+          "url": "https://www.deeplearningbook.org/contents/representation.html",
+          "note": "作者参与撰写的 Deep Learning 第15章将该工作列入逐层无监督预训练的历史发展，并明确今天训练全连接深网并不普遍要求此流程；作为历史影响及适用范围的公开线索。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2006/file/5da713a690c067105aeb2fae32403405-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2006 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "2ea6fdd3ddd05abed399555084623147d2384e2a09ed9f281744f76b7c9cdeda",
+        "read_scope": "Official PDF pp.1–8: all narrative, Figure 1 and Tables 1–2, visually inspected pp.5–6. Official PDF references but omits its algorithm appendix. Separately read coauthor-hosted Technical Report 1282 title/version page and relevant algorithm appendix pp.11–17; did not claim the rest of that report as read. No proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS07.md",
+      "supplementary_reading": [
+        {
+          "url": "https://www.cs.toronto.edu/~larocheh/publications/dbn_supervised_tr1282.pdf",
+          "version": "Technical Report 1282, August 21, 2006; coauthor-hosted",
+          "format": "pdf",
+          "pages": 17,
+          "sha256": "5ee204305f62fcc4e84ed765ead073f2f4593d3e342299d2d10bc11b61817bc1",
+          "read_scope": "Title/version page and relevant Appendix: Algorithms 1–7, pp.11–17 only; not full report narrative."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS08",
+      "work_id": "neurips:2006:2d71b2ae158c7c5912cc0bbde2bb9d95",
+      "title": "Efficient sparse coding algorithms",
+      "authors": [
+        "Lee, Honglak",
+        "Battle, Alexis",
+        "Raina, Rajat",
+        "Ng, Andrew"
+      ],
+      "year": 2006,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2006/hash/2d71b2ae158c7c5912cc0bbde2bb9d95-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "sparse-coding",
+        "convex-subproblems",
+        "algorithm-efficiency",
+        "neural-representation"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2006/hash/2d71b2ae158c7c5912cc0bbde2bb9d95-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2006/hash/2d71b2ae158c7c5912cc0bbde2bb9d95-Abstract.html"
+      },
+      "selection_reason": "同时分析两子问题、局部求解器和完整流程效率，并用计算改善使能神经现象分析；可检验整体与子问题保证的区别。",
+      "recognition_evidence": [
+        {
+          "url": "https://ai.stanford.edu/~hllee/softwares/nips06-sparsecoding.htm",
+          "note": "原作者的公开软件页明确将实现对应到这篇 NIPS 正式论文，并说明后续 self-taught learning 用途；不是将该相关 workshop 工作计入当前核心库。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2006/file/2d71b2ae158c7c5912cc0bbde2bb9d95-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2006 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "1ce218144df273cb919d9ef6c957c33b264b26ef9ec9e3e4d292fcb757edb810",
+        "read_scope": "Official PDF pp.1–8: full main-text narrative, Algorithm 1, proof sketches and technical footnotes, Tables 1–2, Figures 1–3/captions; visually inspected pp.6–7. Re-read pp.3–4 without truncated output. No separate appendix; no line-by-line proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS08.md"
+    },
+    {
+      "id": "NEURIPS09",
+      "work_id": "neurips:2007:013a006f03dbc5392effeb8f18fda755",
+      "title": "Random Features for Large-Scale Kernel Machines",
+      "authors": [
+        "Rahimi, Ali",
+        "Recht, Benjamin"
+      ],
+      "year": 2007,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2007/hash/013a006f03dbc5392effeb8f18fda755-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "random-features",
+        "kernel-approximation",
+        "large-scale-learning"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2007/hash/013a006f03dbc5392effeb8f18fda755-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2007/hash/013a006f03dbc5392effeb8f18fda755-Abstract.html"
+      },
+      "selection_reason": "官方 Test of Time 认可的核近似经典，清楚连接近似对象、两种构造、误差边界与训练评估成本。",
+      "recognition_evidence": [
+        {
+          "url": "https://media.nips.cc/Conferences/NIPS2017/NIPS-2017-Conference-Book.pdf",
+          "note": "NIPS2017 官方会册列出 Ali Rahimi、Benjamin Recht 与该题目的 Test Of Time Award 演讲，直接支持2017获奖归属。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2007/file/013a006f03dbc5392effeb8f18fda755-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2007 proceedings PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "c29d8a08451da883afaf5f4bb6e052e7554889407ae79b2cd50f6757527a0971",
+        "read_scope": "Official PDF pp.1–8: all main-text narrative, Algorithms 1–2, Figures 1–3/captions, Table 1 and Appendix A proof organization/explanations; visually inspected all figure pages pp.3,4,6. No line-by-line approximation-bound audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS09.md"
+    },
+    {
+      "id": "NEURIPS10",
+      "work_id": "neurips:2009:7cce53cf90577442771720a370c3c723",
+      "title": "Dual Averaging Method for Regularized Stochastic Learning and Online Optimization",
+      "authors": [
+        "Xiao, Lin"
+      ],
+      "year": 2009,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2009/hash/7cce53cf90577442771720a370c3c723-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "theory",
+      "topics": [
+        "online-convex-optimization",
+        "dual-averaging",
+        "structured-regularization"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2009/hash/7cce53cf90577442771720a370c3c723-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2009/hash/7cce53cf90577442771720a370c3c723-Abstract.html"
+      },
+      "selection_reason": "凸在线学习经典算法，区分 regret、平均点目标差和实际稀疏性，补足纯性能排行榜以外的优化论证。",
+      "recognition_evidence": [
+        {
+          "url": "https://www.jmlr.org/papers/v11/xiao10a.html",
+          "note": "同作者2010 JMLR长文继续系统发展该 dual averaging 方法并给扩展结果；此处作为后续技术发展线索，不把长文新结果归给2009会议稿，长文不计本次已读。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2009/file/7cce53cf90577442771720a370c3c723-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2009 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "4f07536f4e76f50a898cb88422251ba4eba56692c18577180f9402c761291ea3",
+        "read_scope": "Official PDF pp.1–9: all main-text narrative, Algorithm 1, theorem statements/interpretations, Figures 1–4/captions; visually inspected pp.6–8. Full proofs referred to a separate technical report were not claimed read. No proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS10.md"
+    },
+    {
+      "id": "NEURIPS11",
+      "work_id": "neurips:2010:71f6278d140af599e06ad9bf1ba03cb0",
+      "title": "Online Learning for Latent Dirichlet Allocation",
+      "authors": [
+        "Hoffman, Matthew",
+        "Bach, Francis",
+        "Blei, David"
+      ],
+      "year": 2010,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2010/hash/71f6278d140af599e06ad9bf1ba03cb0-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "topic-models",
+        "stochastic-variational-inference",
+        "streaming-learning"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2010/hash/71f6278d140af599e06ad9bf1ba03cb0-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2010/hash/71f6278d140af599e06ad9bf1ba03cb0-Abstract.html"
+      },
+      "selection_reason": "官方Test of Time认可，以batch瓶颈导出在线推断、自然梯度解释及真正流式实例。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2021/11/30/announcing-the-neurips-2021-award-recipients/",
+          "note": "官方2021公告明确授予这篇2010论文Test of Time Award，并解释当年同时可选2010/2011论文的历史安排；不误写成2011论文。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2010/file/71f6278d140af599e06ad9bf1ba03cb0-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2010 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "ad1a5019be1495cf145eec1c2291d48f9083262f5aab1a3939bac719e6c74dba",
+        "read_scope": "Official PDF pp.1–9: complete main-text narrative, Algorithms 1–2, natural-gradient/convergence discussion, Figures 1–2/captions and Table 1; visually inspected pp.2,7. Separate supplement not counted read; no proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS11.md"
+    },
+    {
+      "id": "NEURIPS12",
+      "work_id": "neurips:2010:091d584fced301b442654dd8c23b3fc9",
+      "title": "Double Q-learning",
+      "authors": [
+        "Hasselt, Hado"
+      ],
+      "year": 2010,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2010/hash/091d584fced301b442654dd8c23b3fc9-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "reinforcement-learning",
+        "estimation-bias",
+        "tabular-control"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2010/hash/091d584fced301b442654dd8c23b3fc9-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2010/hash/091d584fced301b442654dd8c23b3fc9-Abstract.html"
+      },
+      "selection_reason": "将max选择偏差从简单估计问题接回反馈算法，并保留低估、策略质量及估值误差的区别。",
+      "recognition_evidence": [
+        {
+          "url": "https://arxiv.org/abs/1509.06461",
+          "note": "原作者等在后续Deep Reinforcement Learning with Double Q-learning中明确将本篇表格思想推广到函数逼近，提供后续沿用证据；AAAI扩展论文不算NeurIPS核心篇目，也不是本次阅读全文对象。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2010/file/091d584fced301b442654dd8c23b3fc9-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2010 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "f94cf09e58b6392da4d81504cd6349ae432023f08dc040d11c1b6d23a9a4f542",
+        "read_scope": "Official PDF pp.1–9: all narrative, estimator setup/lemma, Algorithm 1, tabular convergence assumptions/proof sketch and Figures 1–2/captions; visually inspected all panels on p.7. Separate supplementary proof not counted read. No line-by-line proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS12.md"
+    },
+    {
+      "id": "NEURIPS13",
+      "work_id": "neurips:2011:beda24c1e1b46055dff2c39c98fd6fc1",
+      "title": "Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials",
+      "authors": [
+        "Krähenbühl, Philipp",
+        "Koltun, Vladlen"
+      ],
+      "year": 2011,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2011/hash/beda24c1e1b46055dff2c39c98fd6fc1-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "structured-prediction",
+        "dense-crf",
+        "approximate-inference",
+        "image-segmentation"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2011/hash/beda24c1e1b46055dff2c39c98fd6fc1-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2011/hash/beda24c1e1b46055dff2c39c98fd6fc1-Abstract.html"
+      },
+      "selection_reason": "以高维滤波使能全像素密图并将边界精度、速度和失败传播接回主张，覆盖结构预测与计算使能型论文。",
+      "recognition_evidence": [
+        {
+          "url": "https://arxiv.org/abs/1412.7062",
+          "note": "后续作者论文Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs将全连接CRF用于深度分割系统，提供方法沿用线索；后续系统成绩不追溯成当前论文结果。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/beda24c1e1b46055dff2c39c98fd6fc1-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2011 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "1cdaa5a7b90431b8101e6acdf95101987e4bab50a8451a18936b1b23b7270db6",
+        "read_scope": "Official PDF pp.1–9: full narrative, Algorithms 1–2, Figures 1–7/captions and quantitative table in Figure 3; visually inspected all figure pages pp.2,6,7,8. Separate supplementary derivations not counted read. No inference proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS13.md"
+    },
+    {
+      "id": "NEURIPS14",
+      "work_id": "neurips:2011:86e8f7ab32cfd12577bc2619bc635690",
+      "title": "Algorithms for Hyper-Parameter Optimization",
+      "authors": [
+        "Bergstra, James",
+        "Bardenet, Rémi",
+        "Bengio, Yoshua",
+        "Kégl, Balázs"
+      ],
+      "year": 2011,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2011/hash/86e8f7ab32cfd12577bc2619bc635690-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "hyperparameter-optimization",
+        "conditional-search-spaces",
+        "tpe",
+        "sequential-design"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2011/hash/86e8f7ab32cfd12577bc2619bc635690-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2011/hash/86e8f7ab32cfd12577bc2619bc635690-Abstract.html"
+      },
+      "selection_reason": "TPE源论文将树结构搜索、预算与算法表现联系，且明确不同搜索边界及GPU预算限制，可用于比较协议写作。",
+      "recognition_evidence": [
+        {
+          "url": "https://github.com/hyperopt/hyperopt",
+          "note": "原论文公开的Hyperopt实现项目持续保存TPE和搜索空间实现，提供可复用算法与工具沿用线索；不是客观排名或奖项。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/86e8f7ab32cfd12577bc2619bc635690-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2011 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "a5355a3d610dc82f1cc024bb09d063790974a23a7710c0b80b1e38b8ed58a965",
+        "read_scope": "Official PDF pp.1–9: complete main-text narrative, SMBO pseudocode, EI/TPE construction explanations, Figures 1–4 and Tables 1–2; visually inspected result pages pp.6–8. No separate appendix. No algebra audit or search replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS14.md"
+    },
+    {
+      "id": "NEURIPS15",
+      "work_id": "neurips:2012:c399862d3b9d6b76c8436e924a68c45b",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "authors": [
+        "Krizhevsky, Alex",
+        "Sutskever, Ilya",
+        "Hinton, Geoffrey E."
+      ],
+      "year": 2012,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "deep-learning",
+        "image-classification",
+        "gpu-training",
+        "benchmark-protocols"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+      },
+      "selection_reason": "官方Test of Time认可的监督视觉经典，覆盖规模驱动系统、结构与训练要素及额外数据和集成的报告边界。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2022/11/21/announcing-the-neurips-2022-awards/",
+          "note": "官方2022获奖公告的Test of Time部分认定2012 ImageNet深度卷积网络论文；不以其历史获奖替代当前具体技术主张的验证。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2012 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "90137160c57217953d5f61857e64ca58e85f06e1b13b4f475c918b1b582b9771",
+        "read_scope": "Official PDF pp.1–9: all narrative, Figures 1–4/captions, Tables 1–2 and protocol footnotes; visually inspected all figures on pp.3,5,6,8. Additional retrieval examples in separate supplementary material not counted read. No replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS15.md"
+    },
+    {
+      "id": "NEURIPS16",
+      "work_id": "neurips:2012:05311655a15b75fab86956663e1819cd",
+      "title": "Practical Bayesian Optimization of Machine Learning Algorithms",
+      "authors": [
+        "Snoek, Jasper",
+        "Larochelle, Hugo",
+        "Adams, Ryan"
+      ],
+      "year": 2012,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2012/hash/05311655a15b75fab86956663e1819cd-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "bayesian-optimization",
+        "cost-aware-design",
+        "parallel-evaluation"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2012/hash/05311655a15b75fab86956663e1819cd-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2012/hash/05311655a15b75fab86956663e1819cd-Abstract.html"
+      },
+      "selection_reason": "将核与超参数不确定性、试验耗时、并行转为三个独立决策问题，并用次数及时间对照解释真实实用收益。",
+      "recognition_evidence": [
+        {
+          "url": "https://github.com/HIPS/Spearmint",
+          "note": "作者相关Spearmint实现README明确将这篇2012论文列为所实现算法的主要来源，提供后续工具沿用证据；不据star数推断经典排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2012 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "218a2ffbff18a6bf45132b9137f3a389f60ad4bd164fab5f4805a06b397a2255",
+        "read_scope": "Official PDF pp.1–9: all narrative, acquisition/cost/parallel construction explanations and Figures 1–6/captions; visually inspected pp.4,6,7,8. Separate supplementary implementation details not counted read. No optimization replication or proof audit.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS16.md"
+    },
+    {
+      "id": "NEURIPS17",
+      "work_id": "neurips:2013:9aa42b31882ec039965f3c4923ce901b",
+      "title": "Distributed Representations of Words and Phrases and their Compositionality",
+      "authors": [
+        "Mikolov, Tomas",
+        "Sutskever, Ilya",
+        "Chen, Kai",
+        "Corrado, Greg S.",
+        "Dean, Jeff"
+      ],
+      "year": 2013,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "word-embeddings",
+        "negative-sampling",
+        "phrase-representation",
+        "language-modeling"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html"
+      },
+      "selection_reason": "官方Test of Time认可的词与短语表征经典，覆盖目标代理、数据规模、评估任务及技术增量的明确归属。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2023/12/11/announcing-the-neurips-2023-paper-awards/",
+          "note": "官方2023 Test of Time段落明确这篇2013正式NeurIPS论文获奖；不把同年ICLR Workshop早期Skip-gram文章混计。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2013 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "9ee42f08c5e6325861ea22f3ef1174345a75fb696d1b27e659301aa88c996744",
+        "read_scope": "Official PDF pp.1–9: complete main narrative, Figures 1–2/captions, Tables 1–6 and all reported corpus/configuration distinctions; visually inspected model/PCA figures on pp.2,4. No appendix; no training replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS17.md"
+    },
+    {
+      "id": "NEURIPS18",
+      "work_id": "neurips:2014:f033ed80deb0234979a61f95710dbe25",
+      "title": "Generative Adversarial Nets",
+      "authors": [
+        "Goodfellow, Ian J.",
+        "Pouget-Abadie, Jean",
+        "Mirza, Mehdi",
+        "Xu, Bing",
+        "Warde-Farley, David",
+        "Ozair, Sherjil",
+        "Courville, Aaron",
+        "Bengio, Yoshua"
+      ],
+      "year": 2014,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "adversarial-learning",
+        "generative-models",
+        "idealized-analysis"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html"
+      },
+      "selection_reason": "官方Test of Time认可的生成学习框架经典，清楚分开博弈直觉、理想分布空间分析和有限网络实践。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2024/11/27/announcing-the-neurips-2024-test-of-time-paper-awards/",
+          "note": "官方2024公告将Generative Adversarial Nets与Sequence to Sequence Learning同时授予Test of Time，支持2014正式论文归属。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2014/file/f033ed80deb0234979a61f95710dbe25-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2014 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "331961622a2f6588c48a34ecddc6a3d052ffe8fcfba333f233d5f27b2da5565d",
+        "read_scope": "Official PDF pp.1–9: all main narrative, Algorithm 1, theoretical statements/proof organization and explicit practical caveat, Figures 1–3/captions, Tables 1–2; visually inspected all figures on pp.4,7. No separate appendix; no proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS18.md"
+    },
+    {
+      "id": "NEURIPS19",
+      "work_id": "neurips:2014:5a18e133cbf9f257297f410bb7eca942",
+      "title": "Sequence to Sequence Learning with Neural Networks",
+      "authors": [
+        "Sutskever, Ilya",
+        "Vinyals, Oriol",
+        "Le, Quoc V."
+      ],
+      "year": 2014,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "sequence-to-sequence",
+        "machine-translation",
+        "recurrent-networks"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html"
+      },
+      "selection_reason": "官方Test of Time认可的序列映射经典，用大规模训练和分层诊断说明编码器—解码器的可行性，并区分单模型、集成与重排序。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2024/11/27/announcing-the-neurips-2024-test-of-time-paper-awards/",
+          "note": "官方2024 Test of Time公告明确列出这篇2014 Seq2Seq论文，与GAN共同获奖。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2014/file/5a18e133cbf9f257297f410bb7eca942-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2014 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "de493aa7b13e9d61813cec52ff751aedc869ce9ba56ea3dfd4e54297b99195b9",
+        "read_scope": "Official PDF pp.1–9: complete narrative, Figures 1–3/captions, Tables 1–3 and decoding/training protocol; visually inspected pp.2,6,7. No separate appendix or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS19.md"
+    },
+    {
+      "id": "NEURIPS20",
+      "work_id": "neurips:2015:14bfa6bb14875e45bba028a21ed38046",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "authors": [
+        "Ren, Shaoqing",
+        "He, Kaiming",
+        "Girshick, Ross",
+        "Sun, Jian"
+      ],
+      "year": 2015,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "object-detection",
+        "region-proposals",
+        "shared-computation"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html"
+      },
+      "selection_reason": "官方Test of Time认可的检测流水线经典，覆盖瓶颈定位、共享计算、交替训练和端点指标/耗时的可核对分解。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2025/11/26/announcing-the-test-of-time-paper-award-for-neurips-2025/",
+          "note": "官方2025公告明确授予2015 Faster R-CNN Test of Time；无需依赖页面引用计数排序。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2015 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "fad7c52aae4a7197c2b85869440d691d3c666d02c6853b65544a293fb6e5395b",
+        "read_scope": "Official PDF pp.1–9: all narrative, training/anchor/loss details, Tables 1–5, Figures 1–2/captions; visually inspected both figure pages 3,8. This is the original conference PDF, not an extended journal version; no replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS20.md"
+    },
+    {
+      "id": "NEURIPS21",
+      "work_id": "neurips:2015:33ceb07bf4eeb3da587e268d663aba1a",
+      "title": "Spatial Transformer Networks",
+      "authors": [
+        "Jaderberg, Max",
+        "Simonyan, Karen",
+        "Zisserman, Andrew",
+        "kavukcuoglu, koray"
+      ],
+      "year": 2015,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2015/hash/33ceb07bf4eeb3da587e268d663aba1a-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "differentiable-programming",
+        "spatial-attention",
+        "invariance"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2015/hash/33ceb07bf4eeb3da587e268d663aba1a-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2015/hash/33ceb07bf4eeb3da587e268d663aba1a-Abstract.html"
+      },
+      "selection_reason": "可微模块与空间规范化的代表作，官方框架教程持续教授其三部件实现，补充可插拔模块的写作与适用边界。",
+      "recognition_evidence": [
+        {
+          "url": "https://docs.pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html",
+          "note": "PyTorch官方教程直接链接DeepMind原论文并实现定位网络、affine_grid和grid_sample，支持后续教学与实现沿用；不是会议获奖声明。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/33ceb07bf4eeb3da587e268d663aba1a-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2015 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "fe27a3a0fafff2be319d4a0b0740cb48491eafe8af710c7d0014233e20601a10",
+        "read_scope": "Official PDF pp.1–9: full narrative, differentiable sampling/gradient explanation, Figures 1–3/captions, Tables 1–3 and embedded visualizations; visually inspected pp.2–4,6–8. Separate supplementary experiments and detailed architectures not counted read; no replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS21.md"
+    },
+    {
+      "id": "NEURIPS22",
+      "work_id": "neurips:2016:cc7e2b878868cbae992d1fb743995d8f",
+      "title": "Generative Adversarial Imitation Learning",
+      "authors": [
+        "Ho, Jonathan",
+        "Ermon, Stefano"
+      ],
+      "year": 2016,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "imitation-learning",
+        "inverse-reinforcement-learning",
+        "occupancy-matching"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html"
+      },
+      "selection_reason": "以对偶和占用匹配连接IRL与对抗训练的代表，后续工具保留GAIL实现，并提供专家数据量与环境交互量分开的重要写作例子。",
+      "recognition_evidence": [
+        {
+          "url": "https://imitation.readthedocs.io/en/stable/algorithms/gail.html",
+          "note": "imitation库官方GAIL文档链接原论文并提供训练接口与示例，构成持续实现沿用证据；不把软件普及等同官方获奖。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2016/file/cc7e2b878868cbae992d1fb743995d8f-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2016 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "f0143e210e913d8d57c3ff854c96485102d109dfbc329358b28605825de783f1",
+        "read_scope": "Official PDF pp.1–9: all narrative, Algorithm 1, Figure 1/caption (visually inspected p.8). Also read entire official 5-page supplemental PDF (printed pp.10–14), proofs' narrative/organization and experimental protocols/tables; no line-by-line proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS22.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2016/file/cc7e2b878868cbae992d1fb743995d8f-Supplemental.zip",
+          "version": "Official supplemental zip member imitation_nips2016_appendix.pdf",
+          "sha256": "a182972a3bdbafc31194eb37b9f0421ff107719c05f5b701922568c62b7c530a",
+          "read_scope": "All 5 PDF pages, printed pp.10–14, Appendices A–B."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS23",
+      "work_id": "neurips:2016:fb87582825f9d28a8d42c5e5e5e8b23d",
+      "title": "Learning to learn by gradient descent by gradient descent",
+      "authors": [
+        "Marcin Andrychowicz",
+        "Misha Denil",
+        "Sergio Gómez Colmenarejo",
+        "Matthew W. Hoffman",
+        "David Pfau",
+        "Tom Schaul",
+        "Brendan Shillingford",
+        "Nando de Freitas"
+      ],
+      "year": 2016,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "learned-optimizers",
+        "meta-learning",
+        "transfer-evaluation"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html"
+      },
+      "selection_reason": "逐坐标循环优化器的代表，跨问题泛化定义、成功与失败迁移均被后续一手研究明确讨论，补充元学习与算法设计叙述。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v70/wichrowska17a/wichrowska17a.pdf",
+          "note": "Learned Optimizers that Scale and Generalize（ICML2017）第2节及5.1节明确讨论、比较Andrychowicz等2016优化器，支持后续研究影响；只核读相关段落，不计为本库全文阅读。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2016/file/fb87582825f9d28a8d42c5e5e5e8b23d-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2016 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "a8f440a494bc92a01de62f26660bd41c0f06dd76084bd9e598fc7bed0f23e25e",
+        "read_scope": "Official PDF pp.1–9: complete narrative, Figures 1–9/captions (visually inspected pp.2,4–8). Official supplement pp.1–2 (printed10–11), A preprocessing and B visualization explanation plus Figure10 visually; captions of Figures11–13 read, C image gallery not fully inspected. No replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS23.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2016/file/fb87582825f9d28a8d42c5e5e5e8b23d-Supplemental.zip",
+          "version": "Official supplemental member learning-to-learn-appendix.pdf",
+          "sha256": "83c5c21c5be68ca00b0fe21549d5b31938dd1496dc2944a337433dc016f411ad",
+          "read_scope": "PDF pp.1–2: Appendices A–B and Figure10; Figures11–13 captions on pp.3–5. C gallery not claimed fully read."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS24",
+      "work_id": "neurips:2017:3f5ee243547dee91fbd053c1c4a845aa",
+      "title": "Attention is All you Need",
+      "authors": [
+        "Vaswani, Ashish",
+        "Shazeer, Noam",
+        "Parmar, Niki",
+        "Uszkoreit, Jakob",
+        "Jones, Llion",
+        "Gomez, Aidan N.",
+        "Kaiser, Łukasz",
+        "Polosukhin, Illia"
+      ],
+      "year": 2017,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "transformer",
+        "attention",
+        "sequence-modeling",
+        "parallelism"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+      },
+      "selection_reason": "Transformer原始正式论文，官方框架至今以该文为参考实现来源，覆盖架构接口、计算路径与性能/预算的联合论证。",
+      "recognition_evidence": [
+        {
+          "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.Transformer.html",
+          "note": "PyTorch官方nn.Transformer文档明确说明实现Attention Is All You Need原架构并用于基础理解，支持持续实现/教学沿用；不是2025再版或官方ToT获奖。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2017 proceedings PDF",
+        "format": "pdf",
+        "pages": 11,
+        "sha256": "d87d482d5ae7960e2e43d7dd6d21377e60e73e8fce1bf2a01aff7aca8a08c537",
+        "read_scope": "Retrieved original official proceedings PDF pp.1–11: all narrative, Figures 1–2/captions (visually inspected pp.3–4), Tables 1–3. This PDF does not include the attention-visualization appendix mentioned in prose or later-version parsing experiments; those are not counted read. No training replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS24.md"
+    },
+    {
+      "id": "NEURIPS25",
+      "work_id": "neurips:2017:f22e4747da1aa27e363d86d40ff442fe",
+      "title": "Deep Sets",
+      "authors": [
+        "Zaheer, Manzil",
+        "Kottur, Satwik",
+        "Ravanbakhsh, Siamak",
+        "Poczos, Barnabas",
+        "Salakhutdinov, Russ R.",
+        "Smola, Alexander"
+      ],
+      "year": 2017,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2017/hash/f22e4747da1aa27e363d86d40ff442fe-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "set-learning",
+        "permutation-invariance",
+        "representation-theory"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2017/hash/f22e4747da1aa27e363d86d40ff442fe-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2017/hash/f22e4747da1aa27e363d86d40ff442fe-Abstract.html"
+      },
+      "selection_reason": "集合网络结构刻画代表，连续性与潜维边界引出明确后续理论研究，覆盖以对称性驱动架构和多应用验证的叙述。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v97/wagstaff19a/wagstaff19a.pdf",
+          "note": "ICML2019 On the Limitations of Representing Functions on Sets第1–2节直接重述、分析Deep Sets结果并研究维度/连续性限制，提供一手后续影响；仅核读相关段落，不新增全文卡。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/f22e4747da1aa27e363d86d40ff442fe-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2017 proceedings PDF",
+        "format": "pdf",
+        "pages": 11,
+        "sha256": "ae1e9a4655b8ada5292b3dd3558dd7e18b05913106ebc36bf9f609c917f163c0",
+        "read_scope": "Official PDF pp.1–11: complete main narrative, Figures 1–3/captions and Tables1–5; visually inspected pp.4,8. Official supplement pp.1–6 (printed12–17): A–B theory assumptions, proof organization and discussion. Remaining application appendices not counted read; no independent proof audit.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS25.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2017/file/f22e4747da1aa27e363d86d40ff442fe-Supplemental.zip",
+          "version": "Official deepsets-app.pdf",
+          "sha256": "39365ff775b89a07d6349c8b87e2e8a13095fe7e64548480b625b84f5d360bd9",
+          "read_scope": "PDF pp.1–6 (printed12–17), Appendices A–B narrative, proof structure and conditions; not remaining application appendices."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS26",
+      "work_id": "neurips:2017:8a20a8621978632d76c43dfd28b67767",
+      "title": "A Unified Approach to Interpreting Model Predictions",
+      "authors": [
+        "Lundberg, Scott M.",
+        "Lee, Su-In"
+      ],
+      "year": 2017,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "interpretability",
+        "feature-attribution",
+        "shapley-values"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html"
+      },
+      "selection_reason": "可解释性统一框架代表，作者软件及持续文档沿用，提供公理刻画、简化输入映射、计算近似和人类实验的不同证据层次。",
+      "recognition_evidence": [
+        {
+          "url": "https://shap.readthedocs.io/en/latest/",
+          "note": "作者相关SHAP工具持续提供解释器、示例与实现文档，支持方法沿用；不表示所有现今解释器都在2017原文中。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2017 proceedings PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "32518459c313a57876ec1646f3266d54569d3b9a70152dd4f28e742eef05a5f3",
+        "read_scope": "Official PDF pp.1–10: complete narrative, Figures1–5/captions (visually inspected pp.5,7–9). Official supplement eliminate_symmetry_axiom.pdf and shapley_kernel_proof.pdf, each all2 pages read for proof organization/conditions. Other supplement files not claimed read; no full proof audit.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS26.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Supplemental.zip",
+          "version": "member shap_supplement/eliminate_symmetry_axiom.pdf",
+          "sha256": "286241c6d01c049223dbadea9b94a25249516a503ef280f1e013d6da03741f5e",
+          "read_scope": "All2 PDF pages, proof narrative/conditions."
+        },
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Supplemental.zip",
+          "version": "member shap_supplement/shapley_kernel_proof.pdf",
+          "sha256": "fc5c2b4b7dfe2fd4e20328f0edfb2a1e20bdd2e4681ee2cf586b3ccdaea8392b",
+          "read_scope": "All2 PDF pages, weighted regression derivation narrative/organization; not independent proof audit."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS27",
+      "work_id": "neurips:2017:5dd9db5e033da9c6fb5ba83c7a7ebea9",
+      "title": "Inductive Representation Learning on Large Graphs",
+      "authors": [
+        "Hamilton, Will",
+        "Ying, Zhitao",
+        "Leskovec, Jure"
+      ],
+      "year": 2017,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "graph-neural-networks",
+        "inductive-learning",
+        "neighbor-sampling"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html"
+      },
+      "selection_reason": "GraphSAGE归纳节点表示及采样代表，PyG等后续框架直接实现原算子，覆盖推断接口与评估切分、表达力存在性之间的关系。",
+      "recognition_evidence": [
+        {
+          "url": "https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.nn.conv.SAGEConv.html",
+          "note": "PyG官方SAGEConv接口明确来源于Inductive Representation Learning on Large Graphs，支持持续软件沿用。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2017 proceedings PDF",
+        "format": "pdf",
+        "pages": 11,
+        "sha256": "6d77db5836cefdea1a1830b802e60996a5c5c85866d5021c24d72c3f26bc1eb8",
+        "read_scope": "Official PDF pp.1–11: all main narrative, Algorithm1, Figures1–2/captions and Table1; visually inspected pp.2,7. Official full-paper supplement pp.12–19: Appendices A–E pseudocode, protocols, alignment and theorem proof organization/corollaries. No line-by-line proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS27.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Supplemental.zip",
+          "version": "member full_paper/paper-graphsage.pdf",
+          "sha256": "c1bf0605137ccca0bfd551807519c3acbca33d8f96cf032333664ad1052162c1",
+          "read_scope": "PDF pp.12–19, Appendices A–E including protocol and theoretical narrative; supplement maintext duplicate not extra count."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS28",
+      "work_id": "neurips:2017:9ef2ed4b7fd2c810847ffa5fa85bce38",
+      "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+      "authors": [
+        "Lakshminarayanan, Balaji",
+        "Pritzel, Alexander",
+        "Blundell, Charles"
+      ],
+      "year": 2017,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "uncertainty",
+        "deep-ensembles",
+        "calibration",
+        "distribution-shift"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html"
+      },
+      "selection_reason": "不确定性强基线代表，后续一手shift基准继续评价该方法，覆盖准确率/校准/未知类与参数资源的分别论证。",
+      "recognition_evidence": [
+        {
+          "url": "https://papers.nips.cc/paper/9547-can-you-trust-your-models-uncertainty-evaluating-predictive-uncertainty-under-dataset-shift.pdf",
+          "note": "NeurIPS2019 Can You Trust Your Model's Uncertainty 第2–3节及总结继续将Lakshminarayanan等2017独立初始化集成作为主要比较方法，提供后续沿用；仅核读相关段落。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2017 proceedings PDF",
+        "format": "pdf",
+        "pages": 12,
+        "sha256": "835735938688c03e411b23ffd8fff172b3b2db3ad33e29e7d6b567c8b94694a0",
+        "read_scope": "Official PDF pp.1–9 complete main narrative, Algorithm1, Figures1–6/captions and Table1; visually inspected pp.6–9. Official supplement pp.1–2 A and B.1, Figure7 calibration and Figures8–9 visually inspected; B.2 text/captions read but full image gallery not claimed inspected. No replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS28.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2017/file/9ef2ed4b7fd2c810847ffa5fa85bce38-Supplemental.zip",
+          "version": "member Paper 3205/supplementary.pdf",
+          "sha256": "c01f166188cb276bfb6e7a9bda07c9771535538111676b1c8017e4c718b2c110",
+          "read_scope": "pp.1–2 Appendices A/B.1 and Figures7–9; B.2 prose/captions p.3 read, not full gallery inspection."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS29",
+      "work_id": "neurips:2018:69386f6bb1dfed68692a24c8686939b9",
+      "title": "Neural Ordinary Differential Equations",
+      "authors": [
+        "Chen, Ricky T. Q.",
+        "Rubanova, Yulia",
+        "Bettencourt, Jesse",
+        "Duvenaud, David K."
+      ],
+      "year": 2018,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2018/hash/69386f6bb1dfed68692a24c8686939b9-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "neural-odes",
+        "differentiable-solvers",
+        "continuous-normalizing-flows",
+        "time-series"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2018/hash/69386f6bb1dfed68692a24c8686939b9-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2018/hash/69386f6bb1dfed68692a24c8686939b9-Abstract.html"
+      },
+      "selection_reason": "可微ODE求解器作为网络组件的代表，作者torchdiffeq持续提供接口并列明后续事件/伴随扩展，覆盖数值代价与多实例证明。",
+      "recognition_evidence": [
+        {
+          "url": "https://github.com/rtqichen/torchdiffeq",
+          "note": "作者维护的可微求解器README明确引用Neural ODE2018作为主要方法来源，并列2021事件及伴随扩展，支持持续实现与研究沿用。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2018 proceedings PDF",
+        "format": "pdf",
+        "pages": 13,
+        "sha256": "fe6fae5c828a11d0347c04bc9fa765091df9551a85e6fa891980bfcae8d9ffce",
+        "read_scope": "Official PDF pp.1–9: all main narrative, Algorithm1, Figures1–9/captions, Tables1–2; visually inspected pp.1–2,4–8. Official supplement pp.1–4 (printed14–17) A–C conditions, proof organization and full adjoint algorithm. D implementation and remaining examples not claimed read; no independent proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS29.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Supplemental.zip",
+          "version": "member node_supp.pdf",
+          "sha256": "31cc0ee6f936cfd19f28f94412036c484f577a3fe19c2f1cc8bb21b1605dd925",
+          "read_scope": "PDF pp.1–4 (printed14–17), Appendices A–C theory narrative, conditions and algorithm; not D code or remaining application examples."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS30",
+      "work_id": "neurips:2018:e46de7e1bcaaced9a54f1e9d0d2f800d",
+      "title": "Are GANs Created Equal? A Large-Scale Study",
+      "authors": [
+        "Lucic, Mario",
+        "Kurach, Karol",
+        "Michalski, Marcin",
+        "Gelly, Sylvain",
+        "Bousquet, Olivier"
+      ],
+      "year": 2018,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2018/hash/e46de7e1bcaaced9a54f1e9d0d2f800d-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "empirical-study",
+      "topics": [
+        "gan-evaluation",
+        "hyperparameter-budget",
+        "reproducibility",
+        "metric-validity"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2018/hash/e46de7e1bcaaced9a54f1e9d0d2f800d-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2018/hash/e46de7e1bcaaced9a54f1e9d0d2f800d-Abstract.html"
+      },
+      "selection_reason": "生成模型经验比较代表，其代码和问题拆分被后续一手研究继续扩展，提供预算分布、指标自检与有条件负结论的写作样本。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v97/kurach19a/kurach19a.pdf",
+          "note": "ICML2019 A Large-Scale Study on Regularization and Normalization in GANs相关工作及方法说明直接基于Lucic等2018开源代码并扩展比较维度，支持一手后续影响；非全篇额外读卡。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/e46de7e1bcaaced9a54f1e9d0d2f800d-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2018 proceedings PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "3a0b5992daba2135486e9389273dc8efffc6f57f3664fcf8a0da10ce98c4ebd0",
+        "read_scope": "Official PDF pp.1–10: all main narrative, Figures1–5/captions and Tables1–2; visually inspected pp.4–8. Official supplement PDF p.11 Appendix A hyperparameter ranges and B explanatory text read; remaining scatter grids/image galleries not fully read. No replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS30.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2018/file/e46de7e1bcaaced9a54f1e9d0d2f800d-Supplemental.zip",
+          "version": "member supplementary.pdf, includes duplicate maintext",
+          "sha256": "8d6473f6eb152d2b73c5cdf7c6a8b208aa4dae78b3545ebf6e5be9057163b9b0",
+          "read_scope": "p.11 Appendix A and B explanatory paragraph; p.12–13 captions encountered, extensive figure grids not counted fully read."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS31",
+      "work_id": "neurips:2011:218a0aefd1d1a4be65601cc6ddc1520e",
+      "title": "Hogwild!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent",
+      "authors": [
+        "Recht, Benjamin",
+        "Re, Christopher",
+        "Wright, Stephen",
+        "Niu, Feng"
+      ],
+      "year": 2011,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2011/hash/218a0aefd1d1a4be65601cc6ddc1520e-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "systems",
+      "topics": [
+        "asynchronous-optimization",
+        "shared-memory",
+        "sparsity",
+        "parallel-sgd"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2011/hash/218a0aefd1d1a4be65601cc6ddc1520e-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2011/hash/218a0aefd1d1a4be65601cc6ddc1520e-Abstract.html"
+      },
+      "selection_reason": "官方Test of Time认可的无锁异步优化经典，增加作者群与年代/系统覆盖，连接冲突结构、速率假设及受控实现比较。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2020/12/07/announcing-the-neurips-2020-award-recipients/",
+          "note": "官方2020 Test of Time段落明确授予2011 HOGWILD，描述长期影响及稀疏条件；不是把2020写作原论文年份。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/218a0aefd1d1a4be65601cc6ddc1520e-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2011 proceedings PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "cdffdd40ac606a5894a9eda72c6d812b7508afd51837c991f43d49ff6fc16894",
+        "read_scope": "Official PDF pp.1–9 complete narrative, Algorithm1, Proposition4.1 assumptions and Figures1–3/captions; visually inspected pp.6–8. Proposition proof is referenced to a separate technical report not read here; no claim of proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS31.md"
+    },
+    {
+      "id": "NEURIPS32",
+      "work_id": "neurips:2020:4c5bcfec8584af0d967f1ab10179ca4b",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "authors": [
+        "Ho, Jonathan",
+        "Jain, Ajay",
+        "Abbeel, Pieter"
+      ],
+      "year": 2020,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "diffusion-models",
+        "score-matching",
+        "generative-models",
+        "rate-distortion"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html"
+      },
+      "selection_reason": "现代扩散生成基础代表，一手后续Improved DDPM直接扩展其likelihood/方差/采样代价，兼顾目标设计与质量取舍。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v139/nichol21a.html",
+          "note": "ICML2021 Improved Denoising Diffusion Probabilistic Models直接扩展DDPM，改善likelihood和采样成本，提供一手后续沿用；不把改进后的能力归给2020原文。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2020 proceedings PDF",
+        "format": "pdf",
+        "pages": 12,
+        "sha256": "cb471d4c0063cad56f8d74b6a72fa7dad1677f8423a0a81349487a63bb58d3de",
+        "read_scope": "Official PDF pp.1–9: complete main narrative and Broader Impact, Algorithms1–4, Figures1–8/captions and Tables1–2; visually inspected pp.1–2,6–8. Official supplement pp.1–3 extra information/A–C derivations, implementation and connections; D gallery not fully read. No proof audit or replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS32.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Supplemental.pdf",
+          "version": "Official supplemental PDF",
+          "sha256": "7a97634df076e4432b9af928b46b911919e13d389bdf086d1ff5dfee4e7dfbde",
+          "read_scope": "pp.1–3 extra information and Appendices A–C; D introductory prose encountered, not full gallery inspection."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS33",
+      "work_id": "neurips:2020:1457c0d6bfcb4967418bfb8ac142f64a",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": [
+        "Brown, Tom",
+        "Mann, Benjamin",
+        "Ryder, Nick",
+        "Subbiah, Melanie",
+        "Kaplan, Jared D",
+        "Dhariwal, Prafulla",
+        "Neelakantan, Arvind",
+        "Shyam, Pranav",
+        "Sastry, Girish",
+        "Askell, Amanda",
+        "Agarwal, Sandhini",
+        "Herbert-Voss, Ariel",
+        "Krueger, Gretchen",
+        "Henighan, Tom",
+        "Child, Rewon",
+        "Ramesh, Aditya",
+        "Ziegler, Daniel",
+        "Wu, Jeffrey",
+        "Winter, Clemens",
+        "Hesse, Chris",
+        "Chen, Mark",
+        "Sigler, Eric",
+        "Litwin, Mateusz",
+        "Gray, Scott",
+        "Chess, Benjamin",
+        "Clark, Jack",
+        "Berner, Christopher",
+        "McCandlish, Sam",
+        "Radford, Alec",
+        "Sutskever, Ilya",
+        "Amodei, Dario"
+      ],
+      "year": 2020,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+        "note": "Historical full NIPS/NeurIPS conference proceedings paper; no separate modern track name is printed on this historical landing page. Main is the normalized corpus label, not a claim that a modern contribution-type taxonomy applied."
+      },
+      "contribution_type": "empirical-study",
+      "topics": [
+        "language-model-scaling",
+        "in-context-learning",
+        "contamination",
+        "broader-impacts"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html"
+      },
+      "selection_reason": "官方Best Paper认可的语言模型规模与上下文学习实证代表，覆盖明确适应协议、规模曲线、污染诊断与可测社会影响。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2020/12/07/announcing-the-neurips-2020-award-recipients/",
+          "note": "官方2020 Best Paper名单及评语明确认可Language Models are Few-Shot Learners的规模结果与影响分析；该文并非Test of Time获奖。"
+        },
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2025/hash/48b383b24230e0e6e649d9c98dae4d8c-Abstract-Conference.html",
+          "note": "本库实读的2025 LLaDA正式论文引言及第2–3节以Brown等2020（参考[4]）的上下文学习/语言建模范式为研究参照，提供五年后研究沿用；不是GPT3当前产品能力或后续结果的证明。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+        "version": "Official NIPS/NeurIPS 2020 proceedings PDF",
+        "format": "pdf",
+        "pages": 25,
+        "sha256": "5fb1e3b8062688f5023ee63a9641d39c8c86922f2bca98535dcba084af7f719e",
+        "read_scope": "Official 25-page proceedings PDF pp.1–19: all main narrative, complete Broader Impacts, contribution statements, Figure1.1 and Figures7.1–7.5/captions, tables and generated news texts; visually inspected chart pages2,13–14,17. Official supplement pp.1–9 A–E filtering/training/contamination/compute/human-study protocols read; F additional samples not fully read. No model replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS33.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Supplemental.pdf",
+          "version": "Official supplemental PDF",
+          "sha256": "9f71d6f1953e1c7c0437cdf965058d36682fea2d29944830dce6829a37b4c70c",
+          "read_scope": "PDF pp.1–9 Appendices A–E; FigureC.2 visually inspected; F introductory paragraph encountered, additional samples not fully read."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS34",
+      "work_id": "neurips:2022:67d57c32e20fd0a7a302cb81d36e40d5",
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+      "authors": [
+        "Dao, Tri",
+        "Fu, Dan",
+        "Ermon, Stefano",
+        "Rudra, Atri",
+        "Ré, Christopher"
+      ],
+      "year": 2022,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html",
+        "note": "Official page explicitly labels Main Conference Track."
+      },
+      "contribution_type": "systems",
+      "topics": [
+        "exact-attention",
+        "io-complexity",
+        "gpu-kernels",
+        "memory-hierarchy"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html",
+        "doi": "10.52202/068431-1189"
+      },
+      "selection_reason": "硬件感知精确注意力代表，作者持续维护实现并衍生后续版本；补足资源模型、定理限定和端到端计时的写作样本。",
+      "recognition_evidence": [
+        {
+          "url": "https://github.com/Dao-AILab/flash-attention",
+          "note": "作者官方仓库明确列原FlashAttention论文，并持续提供FlashAttention-2/3等后续实现和使用入口，支持持续沿用；不以star数认定唯一经典，也不将后续性能归给2022原文。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Paper-Conference.pdf",
+        "version": "Official NIPS/NeurIPS 2022 proceedings PDF",
+        "format": "pdf",
+        "pages": 16,
+        "sha256": "315f252a8c791dd051ae84b531e4549465279c2a7264606a9cfe1f3495d9dfc8",
+        "read_scope": "Official PDF pp.1–10 complete main narrative, societal impacts, all main Figures1–3/captions and tables; checklist p.16 read. Visually inspected pp.2,6,9. Official supplement pp.17–31 A–D and E.1–E.9 experimental prose/captions read; dense timing tables from p.32 not cell-by-cell audited, supplemental plots not all visually inspected. No replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS34.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Supplemental-Conference.pdf",
+          "version": "Official supplemental PDF including duplicate main text",
+          "sha256": "6b0fcf9037095c8a10453267cd48d125652deb171b64d3ec9397a563ff5d93ca",
+          "read_scope": "PDF pp.17–31 Appendices A–D, E.1–E.9 prose and captions; p.32 onward full benchmark tables not individually audited. Main-text duplication not separately counted."
+        }
+      ]
+    },
+    {
+      "id": "NEURIPS35",
+      "work_id": "neurips:2023:a85b405ed65c6477a4fe8302b5e06ce7",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "authors": [
+        "Rafailov, Rafael",
+        "Sharma, Archit",
+        "Mitchell, Eric",
+        "Manning, Christopher D",
+        "Ermon, Stefano",
+        "Finn, Chelsea"
+      ],
+      "year": 2023,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html",
+        "note": "Official page explicitly labels Main Conference Track."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "preference-optimization",
+        "rlhf",
+        "reward-reparameterization",
+        "llm-evaluation"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html",
+        "doi": "10.52202/075280-2338"
+      },
+      "selection_reason": "官方主轨Outstanding Runner-Up认可的偏好优化代表，覆盖目标变换、复杂管线简化、受控前沿与模型评审偏差。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2023/12/11/announcing-the-neurips-2023-paper-awards/",
+          "note": "官方2023 Outstanding Main Track Runner-Ups明确列Direct Preference Optimization；这是当年认可而非Test of Time，不据此声称长期唯一排名。"
+        },
+        {
+          "url": "https://huggingface.co/docs/trl/main/en/dpo_trainer",
+          "note": "Hugging Face官方TRL文档Overview与DPOTrainer接口明确链接原文并提供持续训练实现；后续新增损失和模型示例不属于2023原文结果。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf",
+        "version": "Official NIPS/NeurIPS 2023 proceedings PDF",
+        "format": "pdf",
+        "pages": 14,
+        "sha256": "894386aafb8581f85644773b303dd7cd96377cafe5c23e1b6b442ac6f5884e7c",
+        "read_scope": "Official PDF pp.1–10 complete main narrative, Figures1–3/captions, Tables1–2; visually inspected pp.2,7,8. Official supplement PDF pp.1–13 (printed15–27) A–D proofs, implementation, experiment/evaluator prompts, generated examples and human-study protocol read. No claim of training replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS35.md",
+      "supplementary_reading": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Supplemental-Conference.pdf",
+          "version": "Official supplemental PDF",
+          "sha256": "7c3138467487cf0c8cd67a7554eed60c5aa63e60a9e6b498c9db6a85bf232077",
+          "read_scope": "PDF pp.1–13 (printed15–27), Appendices A–D; all prose, code, evaluation prompts, generated examples, human-study protocol and figure captions read; no independent proof audit."
+        }
+      ]
+    }
+  ]
+}

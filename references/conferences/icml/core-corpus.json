@@ -1,0 +1,4136 @@
+{
+  "schema_version": 1,
+  "conference_id": "icml",
+  "conference": "International Conference on Machine Learning",
+  "checked_at": "2026-10-19",
+  "selection_policy": "35 篇 2000 年以来正式主会经典构成有来源支持的平衡样本，结合官方长期认可、可核验引用快照、方法沿用及写作类型覆盖；不声称客观唯一的前 35 名。另以最近已完成的 ICML 2026 两篇 Outstanding Paper 校准当前写法，近期奖不等同 test-of-time。版本、排除与覆盖局限见 selection-audit.md。",
+  "papers": [
+    {
+      "id": "ICML01",
+      "work_id": "acm:655813",
+      "title": "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+      "authors": [
+        "John Lafferty",
+        "Andrew McCallum",
+        "Fernando C. N. Pereira"
+      ],
+      "year": 2001,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "structured-prediction",
+        "conditional-random-fields"
+      ],
+      "publication_url": "https://dl.acm.org/citation.cfm?id=655813",
+      "identifiers": {
+        "proceedings_url": "https://dl.acm.org/citation.cfm?id=655813",
+        "doi": null,
+        "acm": "655813"
+      },
+      "selection_reason": "全局条件归一化及 label bias 的经典结构预测框架；补入早期图模型和以最小反例引出方法的写法。",
+      "recognition_evidence": [
+        {
+          "url": "https://www.cs.cmu.edu/afs/cs/usr/lafferty/www/publications.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2147880316",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 12956，2021–2025 年记录引用合计 2221。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://www.cs.columbia.edu/~jebara/6772/papers/crf.pdf",
+        "version": "university-hosted copy of conference PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "92c13ce790046fef6fbc361f8b9dfcdd3bf73bbd511cf063036bceddb7247b4a",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML01.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2147880316",
+        "catalog_title": "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+        "catalog_publication_year": 2001,
+        "cited_by_count": 12956,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 146
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 280
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 456
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 523
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 816
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 831
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 858
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 817
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 675
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 837
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 845
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 839
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 846
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 760
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML02",
+      "work_id": "uri:https://mlg.eng.cam.ac.uk/pub/pdf/ZhuGhaLaf03a.pdf",
+      "title": "Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions",
+      "authors": [
+        "Xiaojin Zhu",
+        "Zoubin Ghahramani",
+        "John Lafferty"
+      ],
+      "year": 2003,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "semi-supervised-learning",
+        "graph-based-learning"
+      ],
+      "publication_url": "https://mlg.eng.cam.ac.uk/pub/pdf/ZhuGhaLaf03a.pdf",
+      "identifiers": {
+        "proceedings_url": "https://mlg.eng.cam.ac.uk/pub/pdf/ZhuGhaLaf03a.pdf",
+        "doi": null
+      },
+      "selection_reason": "图半监督学习的 Gaussian field / harmonic function 经典构造；学习算法、随机游走解释与 transductive 证据之间的衔接。",
+      "recognition_evidence": [
+        {
+          "url": "https://mlg.eng.cam.ac.uk/zoubin/ssl.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2139823104",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 3498，2021–2025 年记录引用合计 608。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://mlg.eng.cam.ac.uk/pub/pdf/ZhuGhaLaf03a.pdf",
+        "version": "public author-hosted conference version",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "fe5394f834acb2afe704c4d95f16ea0ec176de12870b9d411289fd7cbad4b201",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML02.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2139823104",
+        "catalog_title": "Semi-supervised learning using Gaussian fields and harmonic functions",
+        "catalog_publication_year": 2003,
+        "cited_by_count": 3498,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 36
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 75
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 105
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 132
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 260
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 301
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 248
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 206
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 172
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 199
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 217
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 222
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 206
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 196
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML03",
+      "work_id": "doi:10.1145/1273496.1273598",
+      "title": "Pegasos: Primal Estimated sub-GrAdient SOlver for SVM",
+      "authors": [
+        "Shai Shalev-Shwartz",
+        "Yoram Singer",
+        "Nathan Srebro"
+      ],
+      "year": 2007,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "optimization",
+        "support-vector-machines"
+      ],
+      "publication_url": "https://doi.org/10.1145/1273496.1273598",
+      "identifiers": {
+        "proceedings_url": "https://doi.org/10.1145/1273496.1273598",
+        "doi": "10.1145/1273496.1273598"
+      },
+      "selection_reason": "大规模线性 SVM 的随机原始优化经典；学习目标精度、分类误差和计算预算的分层报告。",
+      "recognition_evidence": [
+        {
+          "url": "https://doi.org/10.1145/1273496.1273598",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2142623206",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 973，2021–2025 年记录引用合计 83。单一目录快照可延迟/漏计，不代表唯一排名。已改用会议 DOI 对应记录，排除同名 Mathematical Programming 期刊扩展。"
+        }
+      ],
+      "full_text": {
+        "url": "https://home.ttic.edu/~nati/Publications/Pegasos.pdf",
+        "version": "public author-hosted conference version",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "446bc38cf190216436c9fafbb92aee4b6ae4f5e786023a34d12326e2a27ea197",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML03.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2142623206",
+        "catalog_title": "Pegasos",
+        "catalog_publication_year": 2007,
+        "cited_by_count": 973,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 21
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 26
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 22
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 37
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 55
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 54
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 74
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 104
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 131
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 115
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML04",
+      "work_id": "icml:2008:paper:391",
+      "title": "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning",
+      "authors": [
+        "Ronan Collobert",
+        "Jason Weston"
+      ],
+      "year": 2008,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "natural-language-processing",
+        "multitask-learning"
+      ],
+      "publication_url": "https://icml.cc/Conferences/2008/papers/391.pdf",
+      "identifiers": {
+        "proceedings_url": "https://icml.cc/Conferences/2008/papers/391.pdf",
+        "doi": "10.1145/1390156.1390177"
+      },
+      "selection_reason": "ICML 2018 Test of Time 获奖工作；统一架构、共享表示和多任务评估的早期典型。",
+      "recognition_evidence": [
+        {
+          "url": "https://icml.cc/Conferences/2008/papers/391.pdf",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://icml.cc/Conferences/2018/Awards",
+          "note": "ICML 2018 Test of Time 获奖论文。"
+        },
+        {
+          "url": "https://openalex.org/W2117130368",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 5054，2021–2025 年记录引用合计 1345。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://icml.cc/Conferences/2008/papers/391.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "4fe703d123e4ba0b61bedf78437389a0117ea8604a8fa544d8b7b8dcb426b7b6",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML04.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2117130368",
+        "catalog_title": "A unified architecture for natural language processing",
+        "catalog_publication_year": 2008,
+        "cited_by_count": 5054,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 115
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 184
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 251
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 306
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 489
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 609
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 694
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 686
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 485
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 385
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 354
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 191
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 91
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 61
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML05",
+      "work_id": "doi:10.1145/1390156.1390294",
+      "title": "Extracting and Composing Robust Features with Denoising Autoencoders",
+      "authors": [
+        "Pascal Vincent",
+        "Hugo Larochelle",
+        "Yoshua Bengio",
+        "Pierre-Antoine Manzagol"
+      ],
+      "year": 2008,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "representation-learning",
+        "denoising-autoencoders"
+      ],
+      "publication_url": "https://doi.org/10.1145/1390156.1390294",
+      "identifiers": {
+        "proceedings_url": "https://doi.org/10.1145/1390156.1390294",
+        "doi": "10.1145/1390156.1390294"
+      },
+      "selection_reason": "去噪自编码器的经典表征学习构造；简洁训练原则、解释和困难案例并置。",
+      "recognition_evidence": [
+        {
+          "url": "https://doi.org/10.1145/1390156.1390294",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2025768430",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 7420，2021–2025 年记录引用合计 3341。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf",
+        "version": "public author-hosted conference version",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "1117e3277ef1ab928ff1be33236b4f8b5b466e5de8d3e3ecd11ba24329df1ed6",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML05.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2025768430",
+        "catalog_title": "Extracting and composing robust features with denoising autoencoders",
+        "catalog_publication_year": 2008,
+        "cited_by_count": 7420,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 250
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 532
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 621
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 668
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 685
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 835
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 839
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 800
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 613
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 511
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 371
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 294
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 178
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 102
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 50
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML06",
+      "work_id": "uri:https://www.microsoft.com/en-us/research/publication/learning-to-rank-using-gradient-descent/",
+      "title": "Learning to Rank using Gradient Descent",
+      "authors": [
+        "Chris Burges",
+        "Tal Shaked",
+        "Erin Renshaw",
+        "Ari Lazier",
+        "Matt Deeds",
+        "Nicole Hamilton",
+        "Greg Hullender"
+      ],
+      "year": 2005,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "learning-to-rank",
+        "neural-networks"
+      ],
+      "publication_url": "https://www.microsoft.com/en-us/research/publication/learning-to-rank-using-gradient-descent/",
+      "identifiers": {
+        "proceedings_url": "https://www.microsoft.com/en-us/research/publication/learning-to-rank-using-gradient-descent/",
+        "doi": null
+      },
+      "selection_reason": "RankNet 的经典成对排序学习方法；补充检索应用以及训练损失与排序指标的区别。",
+      "recognition_evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/research/publication/learning-to-rank-using-gradient-descent/",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2143331230",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 2796，2021–2025 年记录引用合计 790。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2005/08/icml_ranking.pdf",
+        "version": "public author-hosted conference version",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "89e99e88dc91698c90067641eff2f065ac059a88071847dedaba2839e61e867e",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML06.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2143331230",
+        "catalog_title": "Learning to rank using gradient descent",
+        "catalog_publication_year": 2005,
+        "cited_by_count": 2796,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 103
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 120
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 144
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 154
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 157
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 215
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 206
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 231
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 179
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 140
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 128
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 128
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 127
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 103
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 103
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML07",
+      "work_id": "icml:2010:paper:422",
+      "title": "Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design",
+      "authors": [
+        "Niranjan Srinivas",
+        "Andreas Krause",
+        "Sham Kakade",
+        "Matthias Seeger"
+      ],
+      "year": 2010,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "bayesian-optimization",
+        "gaussian-processes",
+        "bandits"
+      ],
+      "publication_url": "https://icml.cc/Conferences/2010/papers/422.pdf",
+      "identifiers": {
+        "proceedings_url": "https://icml.cc/Conferences/2010/papers/422.pdf",
+        "doi": null
+      },
+      "selection_reason": "ICML 2020 Test of Time 获奖工作；学习 information gain 复杂度如何连接 GP-UCB 算法、不同函数假设与核的 regret 界。",
+      "recognition_evidence": [
+        {
+          "url": "https://icml.cc/Conferences/2010/papers/422.pdf",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://icml.cc/Conferences/2020/Awards",
+          "note": "ICML 2020 Test of Time 获奖论文。"
+        }
+      ],
+      "full_text": {
+        "url": "https://icml.cc/Conferences/2010/papers/422.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "a1257bf33d6dacbae516967b0c5075e34a520f06f94f968acae8a4943ab0a8eb",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML07.md"
+    },
+    {
+      "id": "ICML08",
+      "work_id": "icml:2010:paper:458",
+      "title": "Deep Learning via Hessian-free Optimization",
+      "authors": [
+        "James Martens"
+      ],
+      "year": 2010,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "optimization",
+        "second-order-methods"
+      ],
+      "publication_url": "https://icml.cc/Conferences/2010/papers/458.pdf",
+      "identifiers": {
+        "proceedings_url": "https://icml.cc/Conferences/2010/papers/458.pdf",
+        "doi": null
+      },
+      "selection_reason": "Hessian-free 深度网络优化的代表；学习数值实现条件、训练误差和一般化结果的区分。",
+      "recognition_evidence": [
+        {
+          "url": "https://icml.cc/Conferences/2010/papers/458.pdf",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W196761320",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 723，2021–2025 年记录引用合计 186。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://icml.cc/Conferences/2010/papers/458.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "a893395b6790bfb6e89e7a9da3dff4eb6599e71e92504276314cfab5776c0744",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML08.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W196761320",
+        "catalog_title": "Deep learning via Hessian-free optimization",
+        "catalog_publication_year": 2010,
+        "cited_by_count": 723,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 14
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 19
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 80
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 62
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 82
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 59
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 77
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 61
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 54
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 45
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 21
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML09",
+      "work_id": "icml:2010:paper:432",
+      "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+      "authors": [
+        "Vinod Nair",
+        "Geoffrey E. Hinton"
+      ],
+      "year": 2010,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "representation-learning",
+        "restricted-boltzmann-machines"
+      ],
+      "publication_url": "https://icml.cc/Conferences/2010/papers/432.pdf",
+      "identifiers": {
+        "proceedings_url": "https://icml.cc/Conferences/2010/papers/432.pdf",
+        "doi": null
+      },
+      "selection_reason": "ReLU 在 RBM 中的经典研究；明确模型层级、近似推导和具体识别协议。",
+      "recognition_evidence": [
+        {
+          "url": "https://icml.cc/Conferences/2010/papers/432.pdf",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W1665214252",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 13996，2021–2025 年记录引用合计 6357。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://icml.cc/Conferences/2010/papers/432.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "238d7e1560a39e03b8ac4c4a2886a05d0b518d30b8bd2fef324bd235a62cf2d5",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML09.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1665214252",
+        "catalog_title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+        "catalog_publication_year": 2010,
+        "cited_by_count": 13996,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 4
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 445
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 900
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 1246
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 1363
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 2403
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 2303
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 2251
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 1417
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 854
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 410
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 215
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 97
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 19
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML10",
+      "work_id": "uri:https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf",
+      "title": "Apprenticeship Learning via Inverse Reinforcement Learning",
+      "authors": [
+        "Pieter Abbeel",
+        "Andrew Y. Ng"
+      ],
+      "year": 2004,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "reinforcement-learning",
+        "inverse-reinforcement-learning"
+      ],
+      "publication_url": "https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf",
+      "identifiers": {
+        "proceedings_url": "https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf",
+        "doi": null
+      },
+      "selection_reason": "apprenticeship learning 的经典特征匹配方法；补充未知奖励下的性能保证与示范学习证据。",
+      "recognition_evidence": [
+        {
+          "url": "https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W1999874108",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 2821，2021–2025 年记录引用合计 1120。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf",
+        "version": "public author-hosted conference version",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "5d4517be6b66889e123750b44a299d83ccc705426fa538f990a1f42271cd213d",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。内附 Appendix A 全读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML10.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1999874108",
+        "catalog_title": "Apprenticeship learning via inverse reinforcement learning",
+        "catalog_publication_year": 2004,
+        "cited_by_count": 2821,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 61
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 145
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 175
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 205
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 223
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 372
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 296
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 286
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 222
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 165
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 121
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 87
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 99
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 77
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 84
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML11",
+      "work_id": "icml:2011:paper:398",
+      "title": "Bayesian Learning via Stochastic Gradient Langevin Dynamics",
+      "authors": [
+        "Max Welling",
+        "Yee Whye Teh"
+      ],
+      "year": 2011,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "bayesian-inference",
+        "stochastic-gradient-mcmc"
+      ],
+      "publication_url": "https://icml.cc/2011/papers/398_icmlpaper.pdf",
+      "identifiers": {
+        "proceedings_url": "https://icml.cc/2011/papers/398_icmlpaper.pdf",
+        "doi": null
+      },
+      "selection_reason": "SGLD 的开创性方法；学习随机梯度噪声、退火步骤与后验近似实验之间的叙述。",
+      "recognition_evidence": [
+        {
+          "url": "https://icml.cc/2011/papers/398_icmlpaper.pdf",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2167433878",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 1500，2021–2025 年记录引用合计 716。单一目录快照可延迟/漏计，不代表唯一排名。目录年份 2012 与正式 ICML 2011 不同；按作者稿/目录合并记录理解，不把它改作会议年份或重复计数。该目录源 raw_source_name 指向 WelTeh2011a 作者稿，目录年份 2012 不作正式发表时间。"
+        }
+      ],
+      "full_text": {
+        "url": "https://icml.cc/2011/papers/398_icmlpaper.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 8,
+        "sha256": "c8e3ad641240508633dd78151b2c7558817cd6c31c2275cb8b6f8366cb2665c4",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–8 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML11.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2167433878",
+        "catalog_title": "Bayesian Learning via Stochastic Gradient Langevin Dynamics",
+        "catalog_publication_year": 2012,
+        "cited_by_count": 1500,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 6
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 59
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 130
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 159
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 132
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 236
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 234
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 155
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 120
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 84
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 71
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 61
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 34
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 10
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 9
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML12",
+      "work_id": "pmlr:v28/zemel13",
+      "title": "Learning Fair Representations",
+      "authors": [
+        "Richard Zemel",
+        "Yu Wu",
+        "Kevin Swersky",
+        "Toniann Pitassi",
+        "Cynthia Dwork"
+      ],
+      "year": 2013,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "fairness",
+        "representation-learning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v28/zemel13.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v28/zemel13.html",
+        "doi": null
+      },
+      "selection_reason": "ICML 2023 Test of Time 获奖工作；学习公平目标、代理损失和不同评价指标的明确界定。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v28/zemel13.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://icml.cc/Conferences/2023/Test-of-Time",
+          "note": "ICML 2023 Test of Time 获奖论文。"
+        },
+        {
+          "url": "https://openalex.org/W2162670686",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 1126，2021–2025 年记录引用合计 594。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v28/zemel13.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "230af0b2ff49a82193b9a820fb8e9f8fea0057c3f6d6137aa176836c7faa59ad",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML12.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2162670686",
+        "catalog_title": "Learning Fair Representations",
+        "catalog_publication_year": 2013,
+        "cited_by_count": 1126,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 55
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 92
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 105
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 126
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 216
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 212
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 157
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 81
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 18
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 2
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v28/zemel13-supp.pdf",
+          "sha256": "22fd13425353d98957935e0787e36b400a7b6b9cc3663c759a3982d46eb80f66",
+          "pages": 2,
+          "status": "read",
+          "read_pages": [
+            1,
+            2
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "数据与模型选择、完整定量表"
+        }
+      ]
+    },
+    {
+      "id": "ICML13",
+      "work_id": "pmlr:v28/andrew13",
+      "title": "Deep Canonical Correlation Analysis",
+      "authors": [
+        "Galen Andrew",
+        "Raman Arora",
+        "Jeff Bilmes",
+        "Karen Livescu"
+      ],
+      "year": 2013,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "multiview-learning",
+        "canonical-correlation-analysis"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v28/andrew13.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v28/andrew13.html",
+        "doi": null
+      },
+      "selection_reason": "ICML 2023 Test of Time runner-up；以经典线性对象为起点说明深度多视图扩展及梯度计算。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v28/andrew13.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://icml.cc/Conferences/2023/Test-of-Time",
+          "note": "ICML 2023 Test of Time runner-up。"
+        },
+        {
+          "url": "https://openalex.org/W1523385540",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 1603，2021–2025 年记录引用合计 754。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v28/andrew13.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "a7ed4a31600fa0418318edf0182d514d0c81075032d1fa807aae912531bb4f6f",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。内附梯度附录全读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML13.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1523385540",
+        "catalog_title": "Deep Canonical Correlation Analysis",
+        "catalog_publication_year": 2013,
+        "cited_by_count": 1603,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 75
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 146
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 161
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 154
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 218
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 207
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 223
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 170
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 111
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 74
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 41
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 22
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML14",
+      "work_id": "pmlr:v28/sutskever13",
+      "title": "On the importance of initialization and momentum in deep learning",
+      "authors": [
+        "Ilya Sutskever",
+        "James Martens",
+        "George Dahl",
+        "Geoffrey Hinton"
+      ],
+      "year": 2013,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "optimization",
+        "momentum",
+        "initialization"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v28/sutskever13.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v28/sutskever13.html",
+        "doi": null
+      },
+      "selection_reason": "初始化与 momentum 的经典比较研究；学习对既有方法的公平重估和优化机制解释的范围。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v28/sutskever13.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W104184427",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 3739，2021–2025 年记录引用合计 1586。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v28/sutskever13.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "0ffbc02e2ce6ddcb50705615389829896b700289548be4afacd9a57903e1a1c9",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML14.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W104184427",
+        "catalog_title": "On the importance of initialization and momentum in deep learning",
+        "catalog_publication_year": 2013,
+        "cited_by_count": 3739,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 117
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 243
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 316
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 334
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 576
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 569
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 547
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 392
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 254
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 205
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 121
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 53
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 10
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v28/sutskever13-supp.pdf",
+          "sha256": "e9ffae25678c6a4ebcd1738b71d383183ee0fdabd799ca1bb3524501f416fdb8",
+          "pages": 5,
+          "status": "read",
+          "read_pages": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "NAG 推导、二次目标证明及实验与 HF hybrid 预算"
+        }
+      ]
+    },
+    {
+      "id": "ICML15",
+      "work_id": "pmlr:v32/rezende14",
+      "title": "Stochastic Backpropagation and Approximate Inference in Deep Generative Models",
+      "authors": [
+        "Danilo Jimenez Rezende",
+        "Shakir Mohamed",
+        "Daan Wierstra"
+      ],
+      "year": 2014,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "variational-inference",
+        "deep-generative-models"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v32/rezende14.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v32/rezende14.html",
+        "doi": null,
+        "arxiv": "1401.4082"
+      },
+      "selection_reason": "随机反向传播/重参数化推断的经典工作；说明数学恒等式如何导向可计算估计量及生成模型。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v32/rezende14.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W1909320841",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 3385，2021–2025 年记录引用合计 1388。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v32/rezende14.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "2f8821103767a6a9e27176d36451da3f3128e3036801026148d4ed8c65c0018b",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML15.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1909320841",
+        "catalog_title": "Stochastic Backpropagation and Approximate Inference in Deep Generative Models",
+        "catalog_publication_year": 2014,
+        "cited_by_count": 3385,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 7
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 120
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 198
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 231
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 269
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 570
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 617
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 553
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 376
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 231
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 121
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 71
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v32/rezende14-supp.pdf",
+          "sha256": "904a795f2aef9d3188f810dd5f3ca9fce7e9e946dd5091a43e2313f10a81fab0",
+          "pages": 5,
+          "status": "read",
+          "read_pages": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "坐标变换、梯度恒等式、方差、重要性估计和缺失数据"
+        }
+      ]
+    },
+    {
+      "id": "ICML16",
+      "work_id": "pmlr:v32/donahue14",
+      "title": "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition",
+      "authors": [
+        "Jeff Donahue",
+        "Yangqing Jia",
+        "Oriol Vinyals",
+        "Judy Hoffman",
+        "Ning Zhang",
+        "Eric Tzeng",
+        "Trevor Darrell"
+      ],
+      "year": 2014,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "transfer-learning",
+        "visual-representation-learning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v32/donahue14.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v32/donahue14.html",
+        "doi": null,
+        "arxiv": "1310.1531"
+      },
+      "selection_reason": "ICML 2024 Test of Time 获奖工作；固定表示跨任务迁移研究及任务距离递增的证据安排。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v32/donahue14.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://icml.cc/virtual/2024/test-of-time/38004",
+          "note": "ICML 2024 Test of Time 获奖论文。"
+        },
+        {
+          "url": "https://openalex.org/W2155541015",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 4018，2021–2025 年记录引用合计 975。单一目录快照可延迟/漏计，不代表唯一排名。目录年份 2013 与正式 ICML 2014 不同；按作者稿/目录合并记录理解，不把它改作会议年份或重复计数。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v32/donahue14.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "13a5b73215154442f1560bce4ba29100d6ffedc058618f2f0cb2ae892d7fa952",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML16.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2155541015",
+        "catalog_title": "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition",
+        "catalog_publication_year": 2013,
+        "cited_by_count": 4018,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 105
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 195
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 238
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 386
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 477
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 553
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 520
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 536
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 444
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 361
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 142
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 8
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML17",
+      "work_id": "pmlr:v37/ioffe15",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "authors": [
+        "Sergey Ioffe",
+        "Christian Szegedy"
+      ],
+      "year": 2015,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "normalization",
+        "deep-network-optimization"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v37/ioffe15.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v37/ioffe15.html",
+        "doi": null,
+        "arxiv": "1502.03167"
+      },
+      "selection_reason": "Batch Normalization 的经典会议版本；学习模块定义、推断算法和整体训练配方提升的拆分。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v37/ioffe15.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W1836465849",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 27823，2021–2025 年记录引用合计 15982。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v37/ioffe15.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "f2eb20b4e97409aef516a6506ea76c7c051860eeded3006a6d9687c364847b27",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML17.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1836465849",
+        "catalog_title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "catalog_publication_year": 2015,
+        "cited_by_count": 27823,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 141
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 1317
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 2506
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 3465
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 3989
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 4705
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 4036
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 3834
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 2355
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 1152
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 272
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 44
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v37/ioffe15-supp.pdf",
+          "sha256": "decbf70c3c2ef8089233fa6ea2830f5b853efe4564f7fe2e8e90d3137b8d4de3",
+          "pages": 1,
+          "status": "read",
+          "read_pages": [
+            1
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "Inception 架构配置"
+        }
+      ]
+    },
+    {
+      "id": "ICML18",
+      "work_id": "pmlr:v37/sohl-dickstein15",
+      "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+      "authors": [
+        "Jascha Sohl-Dickstein",
+        "Eric Weiss",
+        "Niru Maheswaranathan",
+        "Surya Ganguli"
+      ],
+      "year": 2015,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "diffusion-models",
+        "generative-modeling"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v37/sohl-dickstein15.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v37/sohl-dickstein15.html",
+        "doi": null,
+        "arxiv": "1503.03585"
+      },
+      "selection_reason": "扩散生成模型的奠基性工作；学习前向/逆向过程、变分界和条件生成的组织。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v37/sohl-dickstein15.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2129069237",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 2636，2021–2025 年记录引用合计 2566。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v37/sohl-dickstein15.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "29131f03cd4688d25283b805c91f801948f2a93187c6f058512d84c3b672ba54",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML18.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2129069237",
+        "catalog_title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+        "catalog_publication_year": 2015,
+        "cited_by_count": 2636,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 632
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1199
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 630
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 70
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 4
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 10
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 9
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 7
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v37/sohl-dickstein15-supp.pdf",
+          "sha256": "74bc9c15d5ad26f497109e76b5ff3e5918220450cef8fed6395d0ff78f50cbc1",
+          "pages": 7,
+          "status": "retrieved-not-read",
+          "read_pages": [],
+          "read_at": null,
+          "read_scope": "仅取得，未计作内容阅读。"
+        }
+      ]
+    },
+    {
+      "id": "ICML19",
+      "work_id": "pmlr:v37/xuc15",
+      "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+      "authors": [
+        "Kelvin Xu",
+        "Jimmy Ba",
+        "Ryan Kiros",
+        "Kyunghyun Cho",
+        "Aaron Courville",
+        "Ruslan Salakhudinov",
+        "Rich Zemel",
+        "Yoshua Bengio"
+      ],
+      "year": 2015,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "attention",
+        "image-captioning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v37/xuc15.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v37/xuc15.html",
+        "doi": null,
+        "arxiv": "1502.03044"
+      },
+      "selection_reason": "视觉注意力图像描述的经典工作；共享模型与 soft/hard 两分支、定量与成功/失败可视化的衔接。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v37/xuc15.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W1514535095",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 8248，2021–2025 年记录引用合计 3518。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v37/xuc15.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "7927b9c5580e0f914bcec7c15ddadf66d6bc0cf1040bcc78f671af99bafa988d",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML19.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1514535095",
+        "catalog_title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+        "catalog_publication_year": 2015,
+        "cited_by_count": 8248,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 226
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 431
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 717
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 787
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 1357
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 1297
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 1363
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 1037
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 617
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 307
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 93
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v37/xuc15-supp.pdf",
+          "sha256": "4cbbe1189850ec812b30a31dfe82f5d4fa47833e52eda8872a639b50dcd7003b",
+          "pages": 13,
+          "status": "retrieved-not-read",
+          "read_pages": [],
+          "read_at": null,
+          "read_scope": "仅取得，未计作内容阅读。"
+        }
+      ]
+    },
+    {
+      "id": "ICML20",
+      "work_id": "pmlr:v37/rezende15",
+      "title": "Variational Inference with Normalizing Flows",
+      "authors": [
+        "Danilo Rezende",
+        "Shakir Mohamed"
+      ],
+      "year": 2015,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "normalizing-flows",
+        "variational-inference"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v37/rezende15.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v37/rezende15.html",
+        "doi": null,
+        "arxiv": "1505.05770"
+      },
+      "selection_reason": "normalizing flows 的经典方法框架；以近似后验表达力和 Jacobian 成本共同限定方法。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v37/rezende15.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2963090522",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 1913，2021–2025 年记录引用合计 1397。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v37/rezende15.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "f23313ce8e35165be79324c4490e537dba349e19ff942cf368e6e8333df0c1b6",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML20.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2963090522",
+        "catalog_title": "Variational Inference with Normalizing Flows",
+        "catalog_publication_year": 2015,
+        "cited_by_count": 1913,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 7
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 170
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 310
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 292
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 237
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 388
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 247
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 170
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 52
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v37/rezende15-supp.pdf",
+          "sha256": "852b972ebd619e3d43eb62b244b386bd52001ef3db22ed231ceccd86a7cd84f7",
+          "pages": 1,
+          "status": "read",
+          "read_pages": [
+            1
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "planar/radial 流可逆条件"
+        }
+      ]
+    },
+    {
+      "id": "ICML21",
+      "work_id": "pmlr:v48/gal16",
+      "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+      "authors": [
+        "Yarin Gal",
+        "Zoubin Ghahramani"
+      ],
+      "year": 2016,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "uncertainty-quantification",
+        "bayesian-deep-learning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v48/gal16.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v48/gal16.html",
+        "doi": null,
+        "arxiv": "1506.02142"
+      },
+      "selection_reason": "MC dropout 的经典近似贝叶斯解释；从理论联系到可计算预测量，再到诊断及决策用途。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v48/gal16.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W582134693",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 6471，2021–2025 年记录引用合计 4369。单一目录快照可延迟/漏计，不代表唯一排名。目录年份 2015 与正式 ICML 2016 不同；按作者稿/目录合并记录理解，不把它改作会议年份或重复计数。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v48/gal16.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "bce8ef24a1ccd970cdf741c37872c0941d879ea0c0b8f30c05efb2b4c346dd28",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML21.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W582134693",
+        "catalog_title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+        "catalog_publication_year": 2015,
+        "cited_by_count": 6471,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 152
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 689
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 760
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 910
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 774
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 1236
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 928
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 557
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 299
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 112
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 41
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 3
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v48/gal16-supp.pdf",
+          "sha256": "a655fd5c3992a8dc8f1cd6f4ca7f22e4390118b57182540b12c289dfd6277a3a",
+          "pages": 20,
+          "status": "read",
+          "read_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "有限 GP 与混合 KL 近似、预测矩计算及额外实验"
+        }
+      ]
+    },
+    {
+      "id": "ICML22",
+      "work_id": "pmlr:v48/mniha16",
+      "title": "Asynchronous Methods for Deep Reinforcement Learning",
+      "authors": [
+        "Volodymyr Mnih",
+        "Adria Puigdomenech Badia",
+        "Mehdi Mirza",
+        "Alex Graves",
+        "Timothy Lillicrap",
+        "Tim Harley",
+        "David Silver",
+        "Koray Kavukcuoglu"
+      ],
+      "year": 2016,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "reinforcement-learning",
+        "asynchronous-optimization"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v48/mniha16.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v48/mniha16.html",
+        "doi": null,
+        "arxiv": "1602.01783"
+      },
+      "selection_reason": "ICML 2026 Test of Time 获奖工作；异步 actor-learner 框架、多个实例和数据/时间效率的比较。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v48/mniha16.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/",
+          "note": "ICML 2026 Test of Time 获奖论文。"
+        },
+        {
+          "url": "https://openalex.org/W2260756217",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 7131，2021–2025 年记录引用合计 4197。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v48/mniha16.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "6548032d7105072e254872c82e02f82cbf34ea780eeed15454d90300b8fea563",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML22.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2260756217",
+        "catalog_title": "Asynchronous Methods for Deep Reinforcement Learning",
+        "catalog_publication_year": 2016,
+        "cited_by_count": 7131,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 18
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 375
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 795
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 914
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 926
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 1187
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 1108
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 981
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 545
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 238
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 39
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 4
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v48/mniha16-supp.pdf",
+          "sha256": "0143dd1e90a47a82f56f6c9f54ae460e653ce60511271c757f87300b072adde3",
+          "pages": 10,
+          "status": "partially-read",
+          "read_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "优化、实验设置与 S1/S2 算法"
+        }
+      ]
+    },
+    {
+      "id": "ICML23",
+      "work_id": "pmlr:v70/finn17a",
+      "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+      "authors": [
+        "Chelsea Finn",
+        "Pieter Abbeel",
+        "Sergey Levine"
+      ],
+      "year": 2017,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "meta-learning",
+        "few-shot-learning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v70/finn17a.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v70/finn17a.html",
+        "doi": null,
+        "arxiv": "1703.03400"
+      },
+      "selection_reason": "MAML 的经典统一方法；任务分布、内外层更新和不同模态实验如何保持共同问题定义。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v70/finn17a.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2604763608",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 8510，2021–2025 年记录引用合计 6581。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v70/finn17a/finn17a.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "e9f197b4b3a18c7d5f693e87442ce8ec7837726b4218451eb726565799612353",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML23.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2604763608",
+        "catalog_title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+        "catalog_publication_year": 2017,
+        "cited_by_count": 8510,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 753
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1390
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 1468
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 1271
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 1699
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 1105
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 569
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 192
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 30
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v70/finn17a/finn17a-supp.pdf",
+          "sha256": "d4dea1455e51ed38384ba4ab4c27eaebce25e585b7f88b1de97fe58c53d33b7f",
+          "pages": 3,
+          "status": "read",
+          "read_pages": [
+            1,
+            2,
+            3
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "超参数、模型选择和补充基线"
+        }
+      ]
+    },
+    {
+      "id": "ICML24",
+      "work_id": "pmlr:v70/guo17a",
+      "title": "On Calibration of Modern Neural Networks",
+      "authors": [
+        "Chuan Guo",
+        "Geoff Pleiss",
+        "Yu Sun",
+        "Kilian Q. Weinberger"
+      ],
+      "year": 2017,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "calibration",
+        "uncertainty-quantification"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v70/guo17a.html",
+        "doi": null,
+        "arxiv": "1706.04599"
+      },
+      "selection_reason": "现代网络 calibration 的经典实证工作；从可见现象、指标与因素分析到简单干预及例外。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v70/guo17a.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2626967530",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 3435，2021–2025 年记录引用合计 2613。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "df7c93f97204f8a3c2b10f6d5bf5265baac25f00c1ae3b473a3e1dbc102dacb2",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML24.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2626967530",
+        "catalog_title": "On Calibration of Modern Neural Networks",
+        "catalog_publication_year": 2017,
+        "cited_by_count": 3435,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 315
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 521
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 590
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 450
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 737
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 475
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 217
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 80
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v70/guo17a/guo17a-supp.pdf",
+          "sha256": "db84c136589971e541211670d576f756c3e05e31ee91dd885a5a78269b798625",
+          "pages": 4,
+          "status": "read",
+          "read_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "指标、温度缩放推导、附加指标与可靠性图"
+        }
+      ]
+    },
+    {
+      "id": "ICML25",
+      "work_id": "pmlr:v70/arjovsky17a",
+      "title": "Wasserstein Generative Adversarial Networks",
+      "authors": [
+        "Martin Arjovsky",
+        "Soumith Chintala",
+        "Léon Bottou"
+      ],
+      "year": 2017,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "generative-adversarial-networks",
+        "optimal-transport"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v70/arjovsky17a.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v70/arjovsky17a.html",
+        "doi": null
+      },
+      "selection_reason": "WGAN 的经典会议版本；最小失效例、拓扑解释、对偶训练和有条件实验解释的组织。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v70/arjovsky17a.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2739748921",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 6381，2021–2025 年记录引用合计 4578。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v70/arjovsky17a/arjovsky17a.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "08ae9585c68b916043f025f0ea649b88a7455e23d57001b9e208ad27f6c3f606",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML25.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2739748921",
+        "catalog_title": "Wasserstein Generative Adversarial Networks",
+        "catalog_publication_year": 2017,
+        "cited_by_count": 6381,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 480
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1007
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 973
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 945
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 1173
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 855
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 624
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 284
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 29
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v70/arjovsky17a/arjovsky17a-supp.pdf",
+          "sha256": "aaff4e8071e1943ccbd83384b305b84899798509a97304d1da184ecd51d25bf6",
+          "pages": 14,
+          "status": "retrieved-not-read",
+          "read_pages": [],
+          "read_at": null,
+          "read_scope": "仅取得，未计作内容阅读。"
+        }
+      ]
+    },
+    {
+      "id": "ICML26",
+      "work_id": "pmlr:v80/haarnoja18b",
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+      "authors": [
+        "Tuomas Haarnoja",
+        "Aurick Zhou",
+        "Pieter Abbeel",
+        "Sergey Levine"
+      ],
+      "year": 2018,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "reinforcement-learning",
+        "maximum-entropy-control"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v80/haarnoja18b.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v80/haarnoja18b.html",
+        "doi": null,
+        "arxiv": "1801.01290"
+      },
+      "selection_reason": "SAC 的最初会议版本；精确理论对象与连续参数化近似实现之间的过渡。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v80/haarnoja18b.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2781726626",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 5593，2021–2025 年记录引用合计 4765。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "b071079b67ced375ad88cbbbfd2fc363b3b8ccd894766fb5d329e7ee30d843f5",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML26.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2781726626",
+        "catalog_title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+        "catalog_publication_year": 2018,
+        "cited_by_count": 5593,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 689
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1294
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 1069
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 857
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 856
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 537
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 221
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 33
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 2
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b-supp.pdf",
+          "sha256": "26472023601bc262e15b29581269f5e4c28417efa7f410489a77b1636109214e",
+          "pages": 4,
+          "status": "read",
+          "read_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "折扣目标、有限动作证明、tanh Jacobian 和配置"
+        }
+      ]
+    },
+    {
+      "id": "ICML27",
+      "work_id": "pmlr:v80/kim18b",
+      "title": "Disentangling by Factorising",
+      "authors": [
+        "Hyunjik Kim",
+        "Andriy Mnih"
+      ],
+      "year": 2018,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "disentanglement",
+        "representation-learning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v80/kim18b.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v80/kim18b.html",
+        "doi": null,
+        "arxiv": "1802.05983"
+      },
+      "selection_reason": "FactorVAE 的代表作；方法创新与指标反例同时呈现，展示解耦和重构的权衡。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v80/kim18b.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2785519580",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 787，2021–2025 年记录引用合计 497。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v80/kim18b/kim18b.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "79d1c2556b892994f797bc3606616e733ef4af927a5cbc14ea326941fe2999ec",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML27.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2785519580",
+        "catalog_title": "Disentangling by Factorising",
+        "catalog_publication_year": 2018,
+        "cited_by_count": 787,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 4
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 86
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 84
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 99
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 197
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 165
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 97
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 24
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v80/kim18b/kim18b-supp.pdf",
+          "sha256": "71327999d3dd09993e2d8592ecf40ae32e243c5e03ee54dcbfacaee101f34277",
+          "pages": 9,
+          "status": "retrieved-not-read",
+          "read_pages": [],
+          "read_at": null,
+          "read_scope": "仅取得，未计作内容阅读。"
+        }
+      ]
+    },
+    {
+      "id": "ICML28",
+      "work_id": "pmlr:v80/mescheder18a",
+      "title": "Which Training Methods for GANs do actually Converge?",
+      "authors": [
+        "Lars Mescheder",
+        "Andreas Geiger",
+        "Sebastian Nowozin"
+      ],
+      "year": 2018,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "generative-adversarial-networks",
+        "convergence-analysis"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v80/mescheder18a.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v80/mescheder18a.html",
+        "doi": null,
+        "arxiv": "1801.04406"
+      },
+      "selection_reason": "GAN 收敛性与零中心梯度惩罚的重要分析；用反例限定此前保证，再给局部充分条件。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v80/mescheder18a.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2792263949",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 954，2021–2025 年记录引用合计 636。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v80/mescheder18a/mescheder18a.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "43a8de472cdd31b705999f5537816e4582207117981c382df064987f8274243f",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML28.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2792263949",
+        "catalog_title": "Which Training Methods for GANs do actually Converge?",
+        "catalog_publication_year": 2018,
+        "cited_by_count": 954,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 44
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 89
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 160
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 118
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 225
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 174
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 109
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 2
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v80/mescheder18a/mescheder18a-supp.pdf",
+          "sha256": "db3592395196032de470364723c58ea1590cc533376ac5ccabe0b16a1c57d4ef",
+          "pages": 29,
+          "status": "partially-read",
+          "read_pages": [
+            15,
+            16
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "高分辨率网络与训练、EMA 配置"
+        }
+      ]
+    },
+    {
+      "id": "ICML29",
+      "work_id": "pmlr:v97/locatello19a",
+      "title": "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations",
+      "authors": [
+        "Francesco Locatello",
+        "Stefan Bauer",
+        "Mario Lucic",
+        "Gunnar Raetsch",
+        "Sylvain Gelly",
+        "Bernhard Schölkopf",
+        "Olivier Bachem"
+      ],
+      "year": 2019,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "negative-results",
+      "topics": [
+        "disentanglement",
+        "identifiability",
+        "empirical-evaluation"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v97/locatello19a.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v97/locatello19a.html",
+        "doi": null,
+        "arxiv": "1811.12359"
+      },
+      "selection_reason": "无监督解耦的经典非识别性与大规模实证研究；逻辑不可能、实际观察和模型选择限制分别陈述。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v97/locatello19a.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2903538854",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 848，2021–2025 年记录引用合计 605。单一目录快照可延迟/漏计，不代表唯一排名。目录年份 2018 与正式 ICML 2019 不同；按作者稿/目录合并记录理解，不把它改作会议年份或重复计数。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v97/locatello19a/locatello19a.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 11,
+        "sha256": "bbce8bcfc6e25f92c9e74d9cc9cbdd5039688a8cb7d572d544f9dd63e533a9ef",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–11 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML29.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2903538854",
+        "catalog_title": "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations",
+        "catalog_publication_year": 2018,
+        "cited_by_count": 848,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 48
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 83
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 127
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 123
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 224
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 162
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 74
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 6
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v97/locatello19a/locatello19a-supp.pdf",
+          "sha256": "d432ca0355db3751803ab8dc9ed4a9ff84270d44ce28a93a9998adabcd2d2750",
+          "pages": 37,
+          "status": "partially-read",
+          "read_pages": [
+            12
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "非识别性构造证明"
+        }
+      ]
+    },
+    {
+      "id": "ICML30",
+      "work_id": "pmlr:v119/chen20j",
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+      "authors": [
+        "Ting Chen",
+        "Simon Kornblith",
+        "Mohammad Norouzi",
+        "Geoffrey Hinton"
+      ],
+      "year": 2020,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "contrastive-learning",
+        "self-supervised-learning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v119/chen20j.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v119/chen20j.html",
+        "doi": null,
+        "arxiv": "2002.05709"
+      },
+      "selection_reason": "SimCLR 的经典自监督学习框架；先完整流水线，再控制变量消融，最后报告整合配置。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v119/chen20j.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W3005680577",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 10663，2021–2025 年记录引用合计 10163。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v119/chen20j/chen20j.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 11,
+        "sha256": "cc620e511bafe8b4b11ca3415f6d7bcf127a05818087bfa49905de3a2e50bc2d",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–11 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML30.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W3005680577",
+        "catalog_title": "A Simple Framework for Contrastive Learning of Visual Representations",
+        "catalog_publication_year": 2020,
+        "cited_by_count": 10663,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 73
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 1288
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 2401
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 2880
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 2052
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 1542
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 417
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v119/chen20j/chen20j-supp.pdf",
+          "sha256": "3d3275d432acfe57e78975aefa127146fb35a5e89a69d7866194a7c1a53c5b27",
+          "pages": 9,
+          "status": "partially-read",
+          "read_pages": [
+            1,
+            8,
+            9
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "增强配方、温度敏感性和替代损失"
+        }
+      ]
+    },
+    {
+      "id": "ICML31",
+      "work_id": "pmlr:v37/ganin15",
+      "title": "Unsupervised Domain Adaptation by Backpropagation",
+      "authors": [
+        "Yaroslav Ganin",
+        "Victor Lempitsky"
+      ],
+      "year": 2015,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "domain-adaptation",
+        "adversarial-representation-learning"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v37/ganin15.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v37/ganin15.html",
+        "doi": null,
+        "arxiv": "1409.7495"
+      },
+      "selection_reason": "gradient reversal 的经典会议方法；从可获得标签/域信息到目标函数、理论联系和失败场景。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v37/ganin15.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W1882958252",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 5282，2021–2025 年记录引用合计 3585。单一目录快照可延迟/漏计，不代表唯一排名。目录年份 2014 与正式 ICML 2015 不同；按作者稿/目录合并记录理解，不把它改作会议年份或重复计数。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v37/ganin15.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "473ed06374e4b7c98f3c9ccf958fd14acc23e5ea392846a85f042de8e5dd2b9b",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML31.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1882958252",
+        "catalog_title": "Unsupervised Domain Adaptation by Backpropagation",
+        "catalog_publication_year": 2014,
+        "cited_by_count": 5282,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 15
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 377
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 774
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 826
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 652
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 956
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 710
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 506
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 277
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 131
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 48
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 2
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v37/ganin15-supp.pdf",
+          "sha256": "857fd849ae8cd0bcf410bcc8f3f808cfd8298c7365ebcccf999df371181da838",
+          "pages": 2,
+          "status": "read",
+          "read_pages": [
+            1,
+            2
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "域损失与模型训练细节"
+        }
+      ]
+    },
+    {
+      "id": "ICML32",
+      "work_id": "pmlr:v37/schulman15",
+      "title": "Trust Region Policy Optimization",
+      "authors": [
+        "John Schulman",
+        "Sergey Levine",
+        "Pieter Abbeel",
+        "Michael Jordan",
+        "Philipp Moritz"
+      ],
+      "year": 2015,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "reinforcement-learning",
+        "policy-optimization"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v37/schulman15.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v37/schulman15.html",
+        "doi": null,
+        "arxiv": "1502.05477"
+      },
+      "selection_reason": "TRPO 的经典方法；理想单调改进结果、可计算松弛和实际近似集中交代。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v37/schulman15.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W1771410628",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 4369，2021–2025 年记录引用合计 2748。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v37/schulman15.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "8e959ae88caeb6d8bdcc92763bc3ff766edff826aa4eb5b96b58a4a56b56ce47",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML32.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W1771410628",
+        "catalog_title": "Trust Region Policy Optimization",
+        "catalog_publication_year": 2015,
+        "cited_by_count": 4369,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 6
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 270
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 575
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 592
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 556
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 755
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 677
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 552
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 264
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 97
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 19
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v37/schulman15-supp.pdf",
+          "sha256": "eb2bf210913416819e52839eed51745731ce9ebe6f3952c5db626aa59ab21137",
+          "pages": 7,
+          "status": "partially-read",
+          "read_pages": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "CG、line search、参数化和实验配置"
+        }
+      ]
+    },
+    {
+      "id": "ICML33",
+      "work_id": "pmlr:v37/martens15",
+      "title": "Optimizing Neural Networks with Kronecker-factored Approximate Curvature",
+      "authors": [
+        "James Martens",
+        "Roger Grosse"
+      ],
+      "year": 2015,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "optimization",
+        "natural-gradient",
+        "curvature-approximation"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v37/martens15.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v37/martens15.html",
+        "doi": null,
+        "arxiv": "1503.05671"
+      },
+      "selection_reason": "K-FAC 的经典曲率近似方法；先检验矩阵近似对象，再比较完整优化器及必要数值技术。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v37/martens15.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2155894447",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 475，2021–2025 年记录引用合计 220。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v37/martens15.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "ea15326875ab24feaf03f73ec7438e04e218b3cd42e884a1d2d9c444dc83166d",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML33.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2155894447",
+        "catalog_title": "Optimizing Neural Networks with Kronecker-factored Approximate Curvature",
+        "catalog_publication_year": 2015,
+        "cited_by_count": 475,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 13
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 29
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 37
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 43
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 98
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 100
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 71
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 46
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 4
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v37/martens15-supp.pdf",
+          "sha256": "de3954d13a84c3018940d8470a2ab7e056d5649339e99404a9ea48ae1c86ded7",
+          "pages": 29,
+          "status": "partially-read",
+          "read_pages": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            19
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "模型 Fisher 估计、EMA、damping、momentum 和完整算法"
+        }
+      ]
+    },
+    {
+      "id": "ICML34",
+      "work_id": "pmlr:v28/agrawal13",
+      "title": "Thompson Sampling for Contextual Bandits with Linear Payoffs",
+      "authors": [
+        "Shipra Agrawal",
+        "Navin Goyal"
+      ],
+      "year": 2013,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "bandits",
+        "thompson-sampling"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v28/agrawal13.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v28/agrawal13.html",
+        "doi": null,
+        "arxiv": "1209.3352"
+      },
+      "selection_reason": "线性 contextual Thompson sampling 的重要理论分析；从成熟启发式的证明障碍引出分解与高概率界。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v28/agrawal13.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2166253248",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 600，2021–2025 年记录引用合计 263。单一目录快照可延迟/漏计，不代表唯一排名。目录年份 2012 与正式 ICML 2013 不同；按作者稿/目录合并记录理解，不把它改作会议年份或重复计数。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v28/agrawal13.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 9,
+        "sha256": "31d1a082866ab1d6e3c82db18419c94c2ced0d5d4fe059f2924fc16e97660a5f",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–9 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML34.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2166253248",
+        "catalog_title": "Thompson Sampling for Contextual Bandits with Linear Payoffs",
+        "catalog_publication_year": 2012,
+        "cited_by_count": 600,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 4
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 34
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 37
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 130
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 90
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 79
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 59
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 36
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 24
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 19
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v28/agrawal13-supp.pdf",
+          "sha256": "19da20cd1268a8b2a232795f9ec56f3e87d6f1fc808d9a4e08224394b0446b8e",
+          "pages": 7,
+          "status": "read",
+          "read_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "read_at": "2026-10-19",
+          "read_scope": "后验计算、集中界与变体、D 节结尾"
+        }
+      ]
+    },
+    {
+      "id": "ICML35",
+      "work_id": "pmlr:v70/azar17a",
+      "title": "Minimax Regret Bounds for Reinforcement Learning",
+      "authors": [
+        "Mohammad Gheshlaghi Azar",
+        "Ian Osband",
+        "Rémi Munos"
+      ],
+      "year": 2017,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "reinforcement-learning",
+        "regret-bounds",
+        "finite-horizon-mdps"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v70/azar17a.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v70/azar17a.html",
+        "doi": null,
+        "arxiv": "1703.05449"
+      },
+      "selection_reason": "有限时域 tabular RL 的 minimax regret 代表；先分解旧界中的维度损失，再组织算法和证明路线。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v70/azar17a.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://openalex.org/W2604884452",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 124，2021–2025 年记录引用合计 89。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "http://proceedings.mlr.press/v70/azar17a/azar17a.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "cda3717b7e8bc87c1afb067b4e58ca91410d6f8b5e3a6ab913d3207181daddf9",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–10 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。独立补充材料按 supplementary_texts 另记，未混记为全部已读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML35.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W2604884452",
+        "catalog_title": "Minimax Regret Bounds for Reinforcement Learning",
+        "catalog_publication_year": 2017,
+        "cited_by_count": 124,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 22
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 22
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 19
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 21
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 14
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 2
+          }
+        ],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      },
+      "supplementary_texts": [
+        {
+          "url": "https://proceedings.mlr.press/v70/azar17a/azar17a-supp.pdf",
+          "sha256": "bcc94c8a2a59c158a3252dba028843cd60c30f35c1e46c58862650cf0dc24fb9",
+          "pages": 19,
+          "status": "retrieved-not-read",
+          "read_pages": [],
+          "read_at": null,
+          "read_scope": "仅取得，未计作内容阅读。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1801 @@
+{
+  "schema_version": 1,
+  "conference_id": "iclr",
+  "conference": "International Conference on Learning Representations",
+  "checked_at": "2026-10-19",
+  "selection_policy": "Curated writing-analysis corpus, not an objective top-35 ranking. Core: mature main-conference papers from 2013 onward (selected papers 2014–2020), informed by official Test of Time recognition, persistent citation/use, topic and contribution diversity; recent official 2026 Outstanding papers separately calibrate current writing. All counted works have actual full main-text narrative reading; scope and source-version limits are explicit. See selection-audit.md.",
+  "papers": [
+    {
+      "id": "ICLR01",
+      "work_id": "arxiv:1312.6114",
+      "title": "Auto-Encoding Variational Bayes",
+      "authors": [
+        "Kingma, Diederik P",
+        "Welling, Max"
+      ],
+      "year": 2014,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "variational-inference"
+      ],
+      "publication_url": "https://arxiv.org/abs/1312.6114",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1312.6114",
+        "openreview": null
+      },
+      "selection_reason": "VAE与重参数变分推断的重要起点；2024官方Test of Time主奖提供直接长期认可证据，且一般估计原理与具体模型分层有独立写作价值。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2024/05/07/iclr-2024-test-of-time-award/",
+          "note": "ICLR 2024 Test of Time main award; directly recognizes lasting impact of the 2014 conference paper."
+        },
+        {
+          "url": "https://api.openalex.org/works/W1959608418",
+          "note": "OpenAlex 2026-10-19 snapshot: 17805 indexed citations for the identity-matched work record; bibliographic year 2013. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1312.6114"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/2014/old-site/conference-proceedings.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1312.6114",
+        "version": "arXiv v11, 2022-12-10; post-conference author revision",
+        "format": "pdf",
+        "pages": 14,
+        "sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+        "read_scope": "全文主文§1–7，附录A–F；图1–5与图注；PDF pp.1–14。未逐式审定证明或复现实验。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR01.md"
+    },
+    {
+      "id": "ICLR02",
+      "work_id": "arxiv:1312.6199",
+      "title": "Intriguing properties of neural networks",
+      "authors": [
+        "Szegedy, Christian",
+        "Zaremba, Wojciech",
+        "Sutskever, Ilya",
+        "Bruna, Joan",
+        "Erhan, Dumitru",
+        "Goodfellow, Ian",
+        "Fergus, Rob"
+      ],
+      "year": 2014,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "adversarial-robustness"
+      ],
+      "publication_url": "https://arxiv.org/abs/1312.6199",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1312.6199",
+        "openreview": null
+      },
+      "selection_reason": "神经网络对抗扰动与转移现象的早期代表；2024官方Test of Time runner-up，保留观察先于解释的经验稿范式。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2024/05/07/iclr-2024-test-of-time-award/",
+          "note": "ICLR 2024 Test of Time runner-up; directly recognizes lasting impact."
+        },
+        {
+          "url": "https://api.openalex.org/works/W1673923490",
+          "note": "OpenAlex 2026-10-19 snapshot: 7945 indexed citations for the identity-matched work record; bibliographic year 2013. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1312.6199"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/2014/old-site/conference-proceedings.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1312.6199",
+        "version": "arXiv v4, 2014-02-19",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "c4e3bd872ef20b7d2c4d77a63cd8f37cb8ff518609ae09acaf0fd5dd9e76c54c",
+        "read_scope": "全文主文§1–5，图1–7和表1–5及图表注；PDF pp.1–10。无额外附录。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR02.md"
+    },
+    {
+      "id": "ICLR03",
+      "work_id": "arxiv:1312.4400",
+      "title": "Network In Network",
+      "authors": [
+        "Lin, Min",
+        "Chen, Qiang",
+        "Yan, Shuicheng"
+      ],
+      "year": 2014,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "architectures"
+      ],
+      "publication_url": "https://arxiv.org/abs/1312.4400",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1312.4400",
+        "openreview": null
+      },
+      "selection_reason": "局部MLP卷积与global average pooling的早期架构代表，长期引用轨迹与后续架构沿用支持入选；不依靠其历史榜单排名判断写作。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2963911037",
+          "note": "OpenAlex 2026-10-19 snapshot: 942 indexed citations for the identity-matched work record; bibliographic year 2014. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1312.4400"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/2014/old-site/conference-proceedings.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1312.4400",
+        "version": "arXiv v3, 2014-03-04",
+        "format": "pdf",
+        "pages": 10,
+        "sha256": "1fbe0f8b21cdbb83cc74bd96b54889171c13dfed1dcea89246baa00c3bb34f11",
+        "read_scope": "全文主文§1–5，图1–4与表1–5及图表注；PDF pp.1–9。末页参考文献未作为正文证据。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR03.md"
+    },
+    {
+      "id": "ICLR04",
+      "work_id": "arxiv:1412.6980",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "authors": [
+        "Kingma, Diederik P.",
+        "Ba, Jimmy"
+      ],
+      "year": 2015,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "optimization"
+      ],
+      "publication_url": "https://arxiv.org/abs/1412.6980",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1412.6980",
+        "openreview": null
+      },
+      "selection_reason": "广泛沿用的自适应优化器原始论文；2025官方Test of Time主奖，同时与ICLR20配对防止把经典证明免检。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2025/04/14/announcing-the-test-of-time-award-winners-from-iclr-2015/",
+          "note": "ICLR 2025 Test of Time main award for Adam."
+        },
+        {
+          "url": "https://api.openalex.org/works/W1522301498",
+          "note": "OpenAlex 2026-10-19 snapshot: 99045 indexed citations for the identity-matched work record; bibliographic year 2014. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1412.6980"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2015.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1412.6980",
+        "version": "arXiv v9, 2017-01-30; post-conference author revision",
+        "format": "pdf",
+        "pages": 15,
+        "sha256": "eab9c73ae2ceda884b94830bda99312254bac4806f6c9f045cbab90721ecda31",
+        "read_scope": "全文主文§1–9，算法1–2、图1–4及图注，PDF pp.1–10；附录证明未逐式核验。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR04.md"
+    },
+    {
+      "id": "ICLR05",
+      "work_id": "arxiv:1409.0473",
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "authors": [
+        "Bahdanau, Dzmitry",
+        "Cho, Kyunghyun",
+        "Bengio, Yoshua"
+      ],
+      "year": 2015,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "sequence-models"
+      ],
+      "publication_url": "https://arxiv.org/abs/1409.0473",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1409.0473",
+        "openreview": null
+      },
+      "selection_reason": "可学习对齐机制的奠基性序列模型论文；2025官方Test of Time runner-up；按句长与对齐展示机制证据。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2025/04/14/announcing-the-test-of-time-award-winners-from-iclr-2015/",
+          "note": "ICLR 2025 Test of Time runner-up for neural machine translation with alignment."
+        },
+        {
+          "url": "https://api.openalex.org/works/W2133564696",
+          "note": "OpenAlex 2026-10-19 snapshot: 16219 indexed citations for the identity-matched work record; bibliographic year 2014. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1409.0473"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2015.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1409.0473",
+        "version": "arXiv v7, 2016-05-19; post-conference author revision",
+        "format": "pdf",
+        "pages": 15,
+        "sha256": "84801c8410da51b449d379d2fa4939a416123f2c93991077a680f863026022a7",
+        "read_scope": "全文主文§1–7，图1–3、表1与附录A–C；PDF pp.1–15。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR05.md"
+    },
+    {
+      "id": "ICLR06",
+      "work_id": "arxiv:1412.6572",
+      "title": "Explaining and Harnessing Adversarial Examples",
+      "authors": [
+        "Goodfellow, Ian J.",
+        "Shlens, Jonathon",
+        "Szegedy, Christian"
+      ],
+      "year": 2015,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "adversarial-robustness"
+      ],
+      "publication_url": "https://arxiv.org/abs/1412.6572",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1412.6572",
+        "openreview": null
+      },
+      "selection_reason": "对抗样本线性解释及FGSM的经典来源，持续引用和后续攻击/训练沿用；作为解释、攻击、缓解三层承诺的写作例。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W1945616565",
+          "note": "OpenAlex 2026-10-19 snapshot: 10376 indexed citations for the identity-matched work record; bibliographic year 2014. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1412.6572"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2015.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1412.6572",
+        "version": "arXiv v3, 2015-03-20",
+        "format": "pdf",
+        "pages": 11,
+        "sha256": "7f6c0a50475149e11e3b7efc9c0a00383652b7cae62f80facd8ae2684ef251e7",
+        "read_scope": "全文主文§1–10、图1–4及图注；PDF pp.1–9。末尾rubbish-class附录未作为主要结构证据。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR06.md"
+    },
+    {
+      "id": "ICLR07",
+      "work_id": "arxiv:1412.6544",
+      "title": "Qualitatively characterizing neural network optimization problems",
+      "authors": [
+        "Goodfellow, Ian J.",
+        "Vinyals, Oriol",
+        "Saxe, Andrew M."
+      ],
+      "year": 2015,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "optimization"
+      ],
+      "publication_url": "https://arxiv.org/abs/1412.6544",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1412.6544",
+        "openreview": null
+      },
+      "selection_reason": "优化景观经验诊断的早期代表，后续大batch论文明确复用其插值观察；覆盖不以新模型为主的经验研究类型。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W1850240193",
+          "note": "OpenAlex 2026-10-19 snapshot: 311 indexed citations for the identity-matched work record; bibliographic year 2014. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1412.6544"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2015.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1412.6544",
+        "version": "arXiv v6, 2015-05-21; post-conference author revision",
+        "format": "pdf",
+        "pages": 20,
+        "sha256": "def88c174b19dc565374e57f9ce630410abc4aa93e968203ee4e228b8dcaaf87",
+        "read_scope": "全文主文§1–6与附录A–D，图1–22及图注；PDF pp.1–20。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR07.md"
+    },
+    {
+      "id": "ICLR08",
+      "work_id": "arxiv:1511.06434",
+      "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+      "authors": [
+        "Radford, Alec",
+        "Metz, Luke",
+        "Chintala, Soumith"
+      ],
+      "year": 2016,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "generative-models"
+      ],
+      "publication_url": "https://arxiv.org/abs/1511.06434",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1511.06434",
+        "openreview": null
+      },
+      "selection_reason": "DCGAN架构与表示分析的长期经典；2026官方Test of Time主奖；样本、下游表示及干预分别构成证据。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2026/04/22/announcing-the-test-of-time-awards-from-iclr-2016/",
+          "note": "One of two ICLR 2026 Test of Time winners, recognizing the 2016 DCGAN paper."
+        },
+        {
+          "url": "https://api.openalex.org/works/W2173520492",
+          "note": "OpenAlex 2026-10-19 snapshot: 12230 indexed citations for the identity-matched work record; bibliographic year 2015. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1511.06434"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2016.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1511.06434",
+        "version": "arXiv v2, 2016-01-07; Under review header, accepted venue independently verified",
+        "format": "pdf",
+        "pages": 16,
+        "sha256": "01f7475f7cdad32c05aeaee6de61031702e7325097c82889d1c3537848642f11",
+        "read_scope": "全文主文§1–7与补充§8.1，图1–11、表1–3及图表注；PDF pp.1–16。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR08.md"
+    },
+    {
+      "id": "ICLR09",
+      "work_id": "arxiv:1510.00149",
+      "title": "Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding",
+      "authors": [
+        "Han, Song",
+        "Mao, Huizi",
+        "Dally, William J."
+      ],
+      "year": 2016,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "compression"
+      ],
+      "publication_url": "https://arxiv.org/abs/1510.00149",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1510.00149",
+        "openreview": null
+      },
+      "selection_reason": "剪枝、量化、编码联合压缩的原始代表，2016官方best paper及长期引用；覆盖资源与工程证据的组织。",
+      "recognition_evidence": [
+        {
+          "url": "https://iclr.cc/archive/www/2016.html",
+          "note": "Official conference page identifies Deep Compression as a best paper; this is contemporary recognition, with long-term evidence supplied separately."
+        },
+        {
+          "url": "https://api.openalex.org/works/W2119144962",
+          "note": "OpenAlex 2026-10-19 snapshot: 4095 indexed citations for the identity-matched work record; bibliographic year 2015. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1510.00149"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2016.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1510.00149",
+        "version": "arXiv v5, 2016-02-15",
+        "format": "pdf",
+        "pages": 14,
+        "sha256": "248044bef68e27e22384583a39d0bee743fd614d00e88a8dda6b331b5fd218d3",
+        "read_scope": "全文主文§1–9与附录A；图1–11、表1–9和图表注；PDF pp.1–14。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR09.md"
+    },
+    {
+      "id": "ICLR10",
+      "work_id": "arxiv:1509.02971",
+      "title": "Continuous control with deep reinforcement learning",
+      "authors": [
+        "Lillicrap, Timothy P.",
+        "Hunt, Jonathan J.",
+        "Pritzel, Alexander",
+        "Heess, Nicolas",
+        "Erez, Tom",
+        "Tassa, Yuval",
+        "Silver, David",
+        "Wierstra, Daan"
+      ],
+      "year": 2016,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "reinforcement-learning"
+      ],
+      "publication_url": "https://arxiv.org/abs/1509.02971",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1509.02971",
+        "openreview": null
+      },
+      "selection_reason": "DDPG连续控制方法，2026官方Test of Time主奖；覆盖RL状态/动作/探索及跨任务评测。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.iclr.cc/2026/04/22/announcing-the-test-of-time-awards-from-iclr-2016/",
+          "note": "One of two ICLR 2026 Test of Time winners, recognizing the 2016 DDPG paper."
+        },
+        {
+          "url": "https://api.openalex.org/works/W2173248099",
+          "note": "OpenAlex 2026-10-19 snapshot: 10782 indexed citations for the identity-matched work record; bibliographic year 2015. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1509.02971"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2016.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1509.02971",
+        "version": "arXiv v6, 2019-07-05; post-conference author revision",
+        "format": "pdf",
+        "pages": 14,
+        "sha256": "34ef677ecdee8c2a72721c70c7d849191be72af39ac8691a12e8c2979a28feda",
+        "read_scope": "全文主文§1–6，算法1、图1–3、表1及补充§7–9；PDF pp.1–14。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR10.md"
+    },
+    {
+      "id": "ICLR11",
+      "work_id": "arxiv:1511.05952",
+      "title": "Prioritized Experience Replay",
+      "authors": [
+        "Schaul, Tom",
+        "Quan, John",
+        "Antonoglou, Ioannis",
+        "Silver, David"
+      ],
+      "year": 2016,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "reinforcement-learning"
+      ],
+      "publication_url": "https://arxiv.org/abs/1511.05952",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1511.05952",
+        "openreview": null
+      },
+      "selection_reason": "优先经验回放的经典原始方法，持续引用与RL实现沿用；抽样偏差及校正条件构成写作关键。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2201581102",
+          "note": "OpenAlex 2026-10-19 snapshot: 3003 indexed citations for the identity-matched work record; bibliographic year 2015. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1511.05952"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2016.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1511.05952",
+        "version": "arXiv v4, 2016-02-25",
+        "format": "pdf",
+        "pages": 21,
+        "sha256": "c944277af1beef1567e1d0f9d87a263f2d5a5b272b9d79be94f578ec2191e3b3",
+        "read_scope": "主文§1–7全部，图1–5与表1，附录A、B.1–B.2.3；PDF pp.1–9,12–14。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR11.md"
+    },
+    {
+      "id": "ICLR12",
+      "work_id": "arxiv:1509.00519",
+      "title": "Importance Weighted Autoencoders",
+      "authors": [
+        "Burda, Yuri",
+        "Grosse, Roger",
+        "Salakhutdinov, Ruslan"
+      ],
+      "year": 2016,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "variational-inference"
+      ],
+      "publication_url": "https://arxiv.org/abs/1509.00519",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1509.00519",
+        "openreview": null
+      },
+      "selection_reason": "IWAE目标与多样本下界的经典论文，持续引用及后续变分方法比较；理论量和潜变量使用效果分开叙述。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W1779483307",
+          "note": "OpenAlex 2026-10-19 snapshot: 644 indexed citations for the identity-matched work record; bibliographic year 2015. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1509.00519"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2016.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1509.00519",
+        "version": "arXiv v4, 2016-11-07; Under review header, accepted venue independently verified",
+        "format": "pdf",
+        "pages": 14,
+        "sha256": "b1927ce0f1039a4781dc853f60b78b2b918ef2b77d06e12408a4832a77f21a30",
+        "read_scope": "主文§1–7全部、表1–2；附录A–E与图表注；PDF pp.1–14。未独立审定证明。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR12.md"
+    },
+    {
+      "id": "ICLR13",
+      "work_id": "arxiv:1511.07122",
+      "title": "Multi-Scale Context Aggregation by Dilated Convolutions",
+      "authors": [
+        "Yu, Fisher",
+        "Koltun, Vladlen"
+      ],
+      "year": 2016,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "dense-prediction"
+      ],
+      "publication_url": "https://arxiv.org/abs/1511.07122",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1511.07122",
+        "openreview": null
+      },
+      "selection_reason": "dilated convolution密集预测应用的经典来源，长期引用及后续模型组件沿用；覆盖几何直觉与系统控制。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2286929393",
+          "note": "OpenAlex 2026-10-19 snapshot: 7736 indexed citations for the identity-matched work record; bibliographic year 2015. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1511.07122"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2016.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1511.07122",
+        "version": "arXiv v3, 2016-04-30",
+        "format": "pdf",
+        "pages": 13,
+        "sha256": "acac9b267cf8b2498d53fe9a9a5afcc51b3dc1cc677ae0ae82f8ca626869a8b1",
+        "read_scope": "主文§1–6全部、图1–4和表1–4；附录A三组城市数据实验与图5、表5–8；PDF pp.1–13。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR13.md"
+    },
+    {
+      "id": "ICLR14",
+      "work_id": "openreview:Sy8gdB9xx",
+      "title": "Understanding deep learning requires rethinking generalization",
+      "authors": [
+        "Zhang, Chiyuan",
+        "Bengio, Samy",
+        "Hardt, Moritz",
+        "Recht, Benjamin",
+        "Vinyals, Oriol"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "generalization"
+      ],
+      "publication_url": "https://openreview.net/forum?id=Sy8gdB9xx",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1611.03530",
+        "openreview": "Sy8gdB9xx"
+      },
+      "selection_reason": "随机标签/随机像素实验引发泛化研究的重要代表，长期引用支持；保留反例如何限定通用解释的稿件类型。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2950220847",
+          "note": "OpenAlex 2026-10-19 snapshot: 2839 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1611.03530"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=Sy8gdB9xx",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1611.03530",
+        "version": "arXiv v2, 2017-02-26",
+        "format": "pdf",
+        "pages": 15,
+        "sha256": "a71f1294a021cebc6939ec977fc073b6d7b4f183950eba761ec55364d30b729f",
+        "read_scope": "主文§1–6全部，图1–2、表1；附录A–E及图3、表2–4；PDF pp.1–15。证明阅读以构造思路为限。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR14.md"
+    },
+    {
+      "id": "ICLR15",
+      "work_id": "openreview:SJU4ayYgl",
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "authors": [
+        "Kipf, Thomas N.",
+        "Welling, Max"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "graph-learning"
+      ],
+      "publication_url": "https://openreview.net/forum?id=SJU4ayYgl",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1609.02907",
+        "openreview": "SJU4ayYgl"
+      },
+      "selection_reason": "GCN半监督节点分类的经典来源，后续GAT与GIN在本库中直接比较其算子；长期引用和理论分析支撑持续影响。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2519887557",
+          "note": "OpenAlex 2026-10-19 snapshot: 16820 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1609.02907"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=SJU4ayYgl",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1609.02907",
+        "version": "arXiv v4, 2017-02-22",
+        "format": "pdf",
+        "pages": 14,
+        "sha256": "a654f884db04a317b0f2414a83f2ba32a9f8442d29bcf1cb5f73f7af78a98070",
+        "read_scope": "主文§1–8全部、图1–2和表1–3；附录A/B、图3–5；PDF pp.1–14。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR15.md"
+    },
+    {
+      "id": "ICLR16",
+      "work_id": "openreview:rkE3y85ee",
+      "title": "Categorical Reparameterization with Gumbel-Softmax",
+      "authors": [
+        "Jang, Eric",
+        "Gu, Shixiang",
+        "Poole, Ben"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "discrete-latent-variables"
+      ],
+      "publication_url": "https://openreview.net/forum?id=rkE3y85ee",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1611.01144",
+        "openreview": "rkE3y85ee"
+      },
+      "selection_reason": "Gumbel-Softmax离散连续松弛的原始代表，持续引用与后续离散建模沿用；与Concrete并行命名联系明确。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2547875792",
+          "note": "OpenAlex 2026-10-19 snapshot: 3616 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1611.01144"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=rkE3y85ee",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1611.01144",
+        "version": "arXiv v5, 2017-08-05; post-conference author revision",
+        "format": "pdf",
+        "pages": 13,
+        "sha256": "e424dbd5b4e8f5b66103bb1e5096e75b592e08f7f354dd4937d829620b7c0147",
+        "read_scope": "主文§1–5全部，图1–5、表1–2；附录B的密度变换关键步骤；PDF pp.1–8,11–12。未逐式审定密度推导。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR16.md"
+    },
+    {
+      "id": "ICLR17",
+      "work_id": "openreview:Sy2fzU9gl",
+      "title": "beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework",
+      "authors": [
+        "Irina Higgins",
+        "Loic Matthey",
+        "Arka Pal",
+        "Christopher Burgess",
+        "Xavier Glorot",
+        "Matthew Botvinick",
+        "Shakir Mohamed",
+        "Alexander Lerchner"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "disentanglement"
+      ],
+      "publication_url": "https://openreview.net/forum?id=Sy2fzU9gl",
+      "identifiers": {
+        "doi": null,
+        "arxiv": null,
+        "openreview": "Sy2fzU9gl"
+      },
+      "selection_reason": "beta-VAE的原始解耦表示方法及指标，后续DIM直接比较、引用轨迹延续；补充表示学习测量与语义解释边界。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2753738274",
+          "note": "OpenAlex 2026-10-19 identity-checked snapshot: 3166 indexed citations with a multi-year trajectory. May aggregate versions and reflects database coverage; no unique ranking is claimed.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19"
+        },
+        {
+          "url": "https://openreview.net/forum?id=Sy2fzU9gl",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://raw.githubusercontent.com/abhineet123/Deep-Learning-for-Tracking-and-Detection/master/autoencoder/variational/beta-VAE%20Learning%20Basic%20Visual%20Concepts%20with%20a%20Constrained%20Variational%20Framework%20iclr17.pdf",
+        "version": "Mirrored ICLR 2017 conference PDF with reader highlights; source bytes not independently matched against OpenReview",
+        "format": "pdf",
+        "pages": 22,
+        "sha256": "529eadc7011f0719c2910f2c6489a3c70301ffd2f9c0935717dbc98c5a42b0a2",
+        "read_scope": "主文§1–5全文、图1–7；附录A.3–A.10与图8–10图注；PDF pp.1–10,13–18。额外遍历画廊未逐图分析。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR17.md"
+    },
+    {
+      "id": "ICLR18",
+      "work_id": "openreview:Skq89Scxx",
+      "title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
+      "authors": [
+        "Loshchilov, Ilya",
+        "Hutter, Frank"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "optimization"
+      ],
+      "publication_url": "https://openreview.net/forum?id=Skq89Scxx",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1608.03983",
+        "openreview": "Skq89Scxx"
+      },
+      "selection_reason": "余弦退火warm restart的经典训练策略，后续AdamW和DARTS实际沿用调度；时间曲线和集成成本有独立价值。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2518108298",
+          "note": "OpenAlex 2026-10-19 snapshot: 5304 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1608.03983"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=Skq89Scxx",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1608.03983",
+        "version": "arXiv v5, 2017-05-03",
+        "format": "pdf",
+        "pages": 16,
+        "sha256": "f14bcfe4dc713782b6b1df90e73f691a8a4d1fa625a08c490c7270fd283a9caa",
+        "read_scope": "主文§1–6全文、图1–5与表1–3及图表注；PDF pp.1–11。未逐项复现实验或阅读全部补充设置。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR18.md"
+    },
+    {
+      "id": "ICLR19",
+      "work_id": "openreview:rJXMpikCZ",
+      "title": "Graph Attention Networks",
+      "authors": [
+        "Veličković, Petar",
+        "Cucurull, Guillem",
+        "Casanova, Arantxa",
+        "Romero, Adriana",
+        "Liò, Pietro",
+        "Bengio, Yoshua"
+      ],
+      "year": 2018,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "graph-learning"
+      ],
+      "publication_url": "https://openreview.net/forum?id=rJXMpikCZ",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1710.10903",
+        "openreview": "rJXMpikCZ"
+      },
+      "selection_reason": "GAT图注意算子的经典来源，长期引用与图学习沿用；用结构匹配基线区分架构和注意力贡献。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2766453196",
+          "note": "OpenAlex 2026-10-19 snapshot: 12095 indexed citations for the identity-matched work record; bibliographic year 2017. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1710.10903"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=rJXMpikCZ",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1710.10903",
+        "version": "arXiv v3, 2018-02-04",
+        "format": "pdf",
+        "pages": 12,
+        "sha256": "a7d811a44e1c65bf27da3a01859f23a8edbe33b8f96114b4b5066aedb078f284",
+        "read_scope": "主文§1–4全文，图1–2、表1–3及图表注；PDF pp.1–9。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR19.md"
+    },
+    {
+      "id": "ICLR20",
+      "work_id": "openreview:ryQu7f-RZ",
+      "title": "On the Convergence of Adam and Beyond",
+      "authors": [
+        "Reddi, Sashank J.",
+        "Kale, Satyen",
+        "Kumar, Sanjiv"
+      ],
+      "year": 2018,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "optimization"
+      ],
+      "publication_url": "https://openreview.net/forum?id=ryQu7f-RZ",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1904.09237",
+        "openreview": "ryQu7f-RZ"
+      },
+      "selection_reason": "对Adam收敛反例与AMSGrad修正的原始理论论文，长期引用；纠错稿的最小反例、统一框架与修正链条值得复用。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2785523195",
+          "note": "OpenAlex 2026-10-19 snapshot: 1771 indexed citations for the identity-matched work record; bibliographic year 2019. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1904.09237"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=ryQu7f-RZ",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1904.09237",
+        "version": "arXiv v1, 2019-04-19; manuscript labeled ICLR 2018",
+        "format": "pdf",
+        "pages": 23,
+        "sha256": "75a949b0751e81c490e7eee76efadd1eb8868c64f44275d8d1542a8f42cb7c01",
+        "read_scope": "主文§1–7全文，算法1–3、定理1–5、图1–2及图注；PDF pp.1–8。未逐式审定附录证明。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR20.md"
+    },
+    {
+      "id": "ICLR21",
+      "work_id": "openreview:B1QRgziT-",
+      "title": "Spectral Normalization for Generative Adversarial Networks",
+      "authors": [
+        "Miyato, Takeru",
+        "Kataoka, Toshiki",
+        "Koyama, Masanori",
+        "Yoshida, Yuichi"
+      ],
+      "year": 2018,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "generative-models"
+      ],
+      "publication_url": "https://openreview.net/forum?id=B1QRgziT-",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1802.05957",
+        "openreview": "B1QRgziT-"
+      },
+      "selection_reason": "GAN判别器spectral normalization经典来源，持续引用和生成模型沿用；控制量、数值近似和耗时分层。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2785678896",
+          "note": "OpenAlex 2026-10-19 snapshot: 3445 indexed citations for the identity-matched work record; bibliographic year 2018. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1802.05957"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=B1QRgziT-",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1802.05957",
+        "version": "arXiv v1, 2018-02-16",
+        "format": "pdf",
+        "pages": 26,
+        "sha256": "af7c49a1db7366e77825b6e8bdb38b27f9efa957f40666b7612628716b50c4a0",
+        "read_scope": "主文§1–5全文，图1–7和表1–2；附录A算法、C.1近似误差与C.2耗时；PDF pp.1–11,13–15,19。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR21.md"
+    },
+    {
+      "id": "ICLR22",
+      "work_id": "openreview:Bkg6RiCqY7",
+      "title": "Decoupled Weight Decay Regularization",
+      "authors": [
+        "Loshchilov, Ilya",
+        "Hutter, Frank"
+      ],
+      "year": 2019,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "optimization"
+      ],
+      "publication_url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1711.05101",
+        "openreview": "Bkg6RiCqY7"
+      },
+      "selection_reason": "AdamW解耦weight decay的原始论文，长期引用并获后续ELECTRA等预训练工作所处优化体系沿用；精确等价条件与预算对照。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2908510526",
+          "note": "OpenAlex 2026-10-19 snapshot: 12513 indexed citations for the identity-matched work record; bibliographic year 2017. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1711.05101"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1711.05101",
+        "version": "arXiv v3, 2019-01-04",
+        "format": "pdf",
+        "pages": 19,
+        "sha256": "9d5af48931e773d6983d167e15c06ef594475b751c1f263827f5ed3c7a00d0d8",
+        "read_scope": "主文§1–5全文，算法1–2、图1–4及图注；附录A、B.1–B.2、C；PDF pp.1–9,12–13。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR22.md"
+    },
+    {
+      "id": "ICLR23",
+      "work_id": "openreview:ryGs6iA5Km",
+      "title": "How Powerful are Graph Neural Networks?",
+      "authors": [
+        "Xu, Keyulu",
+        "Hu, Weihua",
+        "Leskovec, Jure",
+        "Jegelka, Stefanie"
+      ],
+      "year": 2019,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "graph-learning"
+      ],
+      "publication_url": "https://openreview.net/forum?id=ryGs6iA5Km",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1810.00826",
+        "openreview": "ryGs6iA5Km"
+      },
+      "selection_reason": "GIN及邻域聚合WL表达能力框架的经典论文，持续引用与后续理论沿用；上下界到构造的结构补充图方法稿。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2894175828",
+          "note": "OpenAlex 2026-10-19 identity-checked snapshot: 2728 indexed citations with a multi-year trajectory. May aggregate versions and reflects database coverage; no unique ranking is claimed.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19"
+        },
+        {
+          "url": "https://openreview.net/forum?id=ryGs6iA5Km",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1810.00826",
+        "version": "arXiv v3, 2019-02-22",
+        "format": "pdf",
+        "pages": 17,
+        "sha256": "a6ebf80c2790b8bac1fa378902993eae26020cc6d0d95e3964eea42b0c66a974",
+        "read_scope": "主文§1–8全文，定理、引理及图1–4、表1；PDF pp.1–10。证明未逐式核验。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR23.md"
+    },
+    {
+      "id": "ICLR24",
+      "work_id": "openreview:rJl-b3RcF7",
+      "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+      "authors": [
+        "Frankle, Jonathan",
+        "Carbin, Michael"
+      ],
+      "year": 2019,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "compression"
+      ],
+      "publication_url": "https://openreview.net/forum?id=rJl-b3RcF7",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1803.03635",
+        "openreview": "rJl-b3RcF7"
+      },
+      "selection_reason": "Lottery Ticket经验假说及初始化控制的经典来源，长期引用和后续稀疏训练研究沿用；覆盖明确失败边界的假说稿。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2805003733",
+          "note": "OpenAlex 2026-10-19 snapshot: 1529 indexed citations for the identity-matched work record; bibliographic year 2018. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1803.03635"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=rJl-b3RcF7",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1803.03635",
+        "version": "arXiv v5, 2019-03-04",
+        "format": "pdf",
+        "pages": 42,
+        "sha256": "e5fe9482538b6573b59382f058c6eaefd933a9941cf7c06baf5c7577c62f68ec",
+        "read_scope": "主文§1–7全文，图1–8与图注；PDF pp.1–10。相关附录未逐项复核，未复现实验。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR24.md"
+    },
+    {
+      "id": "ICLR25",
+      "work_id": "openreview:r1Ddp1-Rb",
+      "title": "mixup: Beyond Empirical Risk Minimization",
+      "authors": [
+        "Zhang, Hongyi",
+        "Cisse, Moustapha",
+        "Dauphin, Yann N.",
+        "Lopez-Paz, David"
+      ],
+      "year": 2018,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "regularization"
+      ],
+      "publication_url": "https://openreview.net/forum?id=r1Ddp1-Rb",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1710.09412",
+        "openreview": "r1Ddp1-Rb"
+      },
+      "selection_reason": "mixup输入–标签联合插值的经典原始方法，持续引用及数据增强沿用；简单构造、多任务及替代设计消融兼具。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2765407302",
+          "note": "OpenAlex 2026-10-19 snapshot: 5658 indexed citations for the identity-matched work record; bibliographic year 2017. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1710.09412"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=r1Ddp1-Rb",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1710.09412",
+        "version": "arXiv v2, 2018-04-27",
+        "format": "pdf",
+        "pages": 13,
+        "sha256": "d477fc9b3c5232669126d84406f17ae8261d19db8ebddfcb25ad995ca09b47e3",
+        "read_scope": "主文§1–5全文，图1–5和表1–5及图表注；PDF pp.1–11。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR25.md"
+    },
+    {
+      "id": "ICLR26",
+      "work_id": "openreview:H1oyRlYgg",
+      "title": "On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima",
+      "authors": [
+        "Keskar, Nitish Shirish",
+        "Mudigere, Dheevatsa",
+        "Nocedal, Jorge",
+        "Smelyanskiy, Mikhail",
+        "Tang, Ping Tak Peter"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "generalization"
+      ],
+      "publication_url": "https://openreview.net/forum?id=H1oyRlYgg",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1609.04836",
+        "openreview": "H1oyRlYgg"
+      },
+      "selection_reason": "大batch、sharpness与泛化差距的经典经验论文，长期引用及后续优化研究讨论；保留历史因果解释不可直接迁移的反例。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2523060838",
+          "note": "OpenAlex 2026-10-19 snapshot: 1128 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1609.04836"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=H1oyRlYgg",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1609.04836",
+        "version": "arXiv v2, 2017-02-09",
+        "format": "pdf",
+        "pages": 16,
+        "sha256": "bcd5497ace654f4dc354a32cfe68cfdf5dc88e823150726d3e6a9cfa680557ad",
+        "read_scope": "主文§1–4全文、图1–6、表1–4及图表注；PDF pp.1–9。未审阅所有补救方案附录。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR26.md"
+    },
+    {
+      "id": "ICLR27",
+      "work_id": "openreview:rJxgknCcK7",
+      "title": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+      "authors": [
+        "Grathwohl, Will",
+        "Chen, Ricky T. Q.",
+        "Bettencourt, Jesse",
+        "Sutskever, Ilya",
+        "Duvenaud, David"
+      ],
+      "year": 2019,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "normalizing-flows"
+      ],
+      "publication_url": "https://openreview.net/forum?id=rJxgknCcK7",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1810.01367",
+        "openreview": "rJxgknCcK7"
+      },
+      "selection_reason": "FFJORD连续流随机trace计算的经典代表，持续引用与后续连续生成模型沿用；数值误差和实际总成本是独立覆盖点。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2895434480",
+          "note": "OpenAlex 2026-10-19 snapshot: 426 indexed citations for the identity-matched work record; bibliographic year 2018. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1810.01367"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=rJxgknCcK7",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1810.01367",
+        "version": "arXiv v3, 2018-10-22; Under review header, accepted venue independently verified",
+        "format": "pdf",
+        "pages": 13,
+        "sha256": "8c1cde6ce5101c980ecb028e8917672c69161b6b5229ec02f1cbeb9a4f46fa03",
+        "read_scope": "主文§1–7全文，图1–6、算法1和表1–3；附录B.3/C的方差与数值误差诊断；PDF pp.1–8,13。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR27.md"
+    },
+    {
+      "id": "ICLR28",
+      "work_id": "openreview:B1ElR4cgg",
+      "title": "Adversarially Learned Inference",
+      "authors": [
+        "Dumoulin, Vincent",
+        "Belghazi, Ishmael",
+        "Poole, Ben",
+        "Mastropietro, Olivier",
+        "Lamb, Alex",
+        "Arjovsky, Martin",
+        "Courville, Aaron"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "generative-models"
+      ],
+      "publication_url": "https://openreview.net/forum?id=B1ElR4cgg",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1606.00704",
+        "openreview": "B1ElR4cgg"
+      },
+      "selection_reason": "ALI联合分布匹配推断的原始论文，后续DIM将其与BiGAN直接作为比较对象，长期引用延续；并行工作的命名关系明确。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2411541852",
+          "note": "OpenAlex 2026-10-19 snapshot: 1015 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1606.00704"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=B1ElR4cgg",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1606.00704",
+        "version": "arXiv v3, 2017-02-21",
+        "format": "pdf",
+        "pages": 18,
+        "sha256": "7d44ac97a98afb147e1b41c0429e61a2cdb9aa45867534dc11f9bb6dcfce5e73",
+        "read_scope": "主文§1–5全文，命题1–3、算法1、图1–8、表1–2及图表注；PDF pp.1–11。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR28.md"
+    },
+    {
+      "id": "ICLR29",
+      "work_id": "openreview:HkpbnH9lx",
+      "title": "Density estimation using Real NVP",
+      "authors": [
+        "Dinh, Laurent",
+        "Sohl-Dickstein, Jascha",
+        "Bengio, Samy"
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "normalizing-flows"
+      ],
+      "publication_url": "https://openreview.net/forum?id=HkpbnH9lx",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1605.08803",
+        "openreview": "HkpbnH9lx"
+      },
+      "selection_reason": "Real NVP affine coupling及多尺度flow的经典来源，FFJORD等后续一手论文直接扩展/比较，长期引用支持。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2409550820",
+          "note": "OpenAlex 2026-10-19 snapshot: 2066 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1605.08803"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=HkpbnH9lx",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1605.08803",
+        "version": "arXiv v3, 2017-02-27",
+        "format": "pdf",
+        "pages": 32,
+        "sha256": "b80d619f41d7e7fe537907bdb6029d8b6c20e6b454e1331f3271c9550e4424d6",
+        "read_scope": "主文§1–6全文，图1–6、表1及图表注；PDF pp.1–10。附录条件生成与batch-normalization细节未逐项核验。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR29.md"
+    },
+    {
+      "id": "ICLR30",
+      "work_id": "openreview:r1Ue8Hcxg",
+      "title": "Neural Architecture Search with Reinforcement Learning",
+      "authors": [
+        "Zoph, Barret",
+        "Le, Quoc V."
+      ],
+      "year": 2017,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "architecture-search"
+      ],
+      "publication_url": "https://openreview.net/forum?id=r1Ue8Hcxg",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1611.01578",
+        "openreview": "r1Ue8Hcxg"
+      },
+      "selection_reason": "RL控制器架构搜索的重要起点，DARTS直接以其为搜索范式与成本对照，长期引用支持；搜索空间与搜索器须拆分。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2553303224",
+          "note": "OpenAlex 2026-10-19 snapshot: 4378 indexed citations for the identity-matched work record; bibliographic year 2016. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1611.01578"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=r1Ue8Hcxg",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1611.01578",
+        "version": "arXiv v2, 2017-02-15; Under review header, accepted venue independently verified",
+        "format": "pdf",
+        "pages": 16,
+        "sha256": "1a661851f7c735bcf6c080382ba58554ef0e983ca79fbe670644fee80aca7bc1",
+        "read_scope": "主文§1–5全文，图1–6、表1–3与图表注；PDF pp.1–11。附录架构画廊未逐图审查。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR30.md"
+    },
+    {
+      "id": "ICLR31",
+      "work_id": "openreview:H1eA7AEtvS",
+      "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+      "authors": [
+        "Lan, Zhenzhong",
+        "Chen, Mingda",
+        "Goodman, Sebastian",
+        "Gimpel, Kevin",
+        "Sharma, Piyush",
+        "Soricut, Radu"
+      ],
+      "year": 2020,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "language-pretraining"
+      ],
+      "publication_url": "https://openreview.net/forum?id=H1eA7AEtvS",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1909.11942",
+        "openreview": "H1eA7AEtvS"
+      },
+      "selection_reason": "ALBERT参数共享与factorized embedding的原始代表；主流Transformers官方实现与原检查点持续受支持，ELECTRA一手论文亦明确比较。",
+      "recognition_evidence": [
+        {
+          "url": "https://huggingface.co/docs/transformers/model_doc/albert",
+          "note": "Original-model documentation and maintained implementation/checkpoints in Transformers, documented as integrated on 2020-11-16 and still available at the check date. Evidence of continued implementation support; not a citation ranking.",
+          "checked_at": "2026-10-19"
+        },
+        {
+          "url": "https://openreview.net/forum?id=H1eA7AEtvS",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1909.11942",
+        "version": "arXiv v6, 2020-02-09",
+        "format": "pdf",
+        "pages": 17,
+        "sha256": "d631c30f3f41684862e854ad1cb379e9dbf9b1c1fa1510ab618f45b8dfc07e2c",
+        "read_scope": "主文§1–5全文、图1–2和表1–10及图表注；PDF pp.1–10。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR31.md"
+    },
+    {
+      "id": "ICLR32",
+      "work_id": "openreview:r1xMH1BtvB",
+      "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+      "authors": [
+        "Clark, Kevin",
+        "Luong, Minh-Thang",
+        "Le, Quoc V.",
+        "Manning, Christopher D."
+      ],
+      "year": 2020,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "language-pretraining"
+      ],
+      "publication_url": "https://openreview.net/forum?id=r1xMH1BtvB",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2003.10555",
+        "openreview": "r1xMH1BtvB"
+      },
+      "selection_reason": "ELECTRA replaced token detection的原始代表，主流Transformers官方实现与原检查点持续受支持；计算效率与桥接基线写法有代表性。",
+      "recognition_evidence": [
+        {
+          "url": "https://huggingface.co/docs/transformers/model_doc/electra",
+          "note": "Original-model documentation and maintained implementation/checkpoints in Transformers, documented as integrated on 2020-11-16 and still available at the check date. Evidence of continued implementation support; not a citation ranking.",
+          "checked_at": "2026-10-19"
+        },
+        {
+          "url": "https://openreview.net/forum?id=r1xMH1BtvB",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/2003.10555",
+        "version": "arXiv v1, 2020-03-23",
+        "format": "pdf",
+        "pages": 18,
+        "sha256": "6219a802dca3be0027fc88bb2ecd56806e6610ebfe4d083a4c18dd896f45b9ae",
+        "read_scope": "主文§1–5全文，图1–4、表1–5与图表注；PDF pp.1–10。附录GAN训练实现未逐项复核。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR32.md"
+    },
+    {
+      "id": "ICLR33",
+      "work_id": "openreview:Bklr3j0cKX",
+      "title": "Learning deep representations by mutual information estimation and maximization",
+      "authors": [
+        "Hjelm, R Devon",
+        "Fedorov, Alex",
+        "Lavoie-Marchildon, Samuel",
+        "Grewal, Karan",
+        "Bachman, Phil",
+        "Trischler, Adam",
+        "Bengio, Yoshua"
+      ],
+      "year": 2019,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "self-supervised-learning"
+      ],
+      "publication_url": "https://openreview.net/forum?id=Bklr3j0cKX",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1808.06670",
+        "openreview": "Bklr3j0cKX"
+      },
+      "selection_reason": "Deep InfoMax结构化MI表示学习的经典来源，长期引用和后续自监督讨论沿用；多种评测代理的区分具有独立价值。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2887997457",
+          "note": "OpenAlex 2026-10-19 snapshot: 1914 indexed citations for the identity-matched work record; bibliographic year 2018. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1808.06670"
+          ]
+        },
+        {
+          "url": "https://openreview.net/forum?id=Bklr3j0cKX",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1808.06670",
+        "version": "arXiv v5, 2019-02-22",
+        "format": "pdf",
+        "pages": 24,
+        "sha256": "8325c5969b7b03654b206e4a27c9e036d17c6723295be86e3d05d8d6fff4e9c9",
+        "read_scope": "主文§1–6全文，图1–3、表1–5及图表注；附录A.1关系、A.2部分实现与A.3采样；PDF pp.1–10,15–16,18。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR33.md"
+    },
+    {
+      "id": "ICLR34",
+      "work_id": "arxiv:1410.3916",
+      "title": "Memory Networks",
+      "authors": [
+        "Weston, Jason",
+        "Chopra, Sumit",
+        "Bordes, Antoine"
+      ],
+      "year": 2015,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "memory-networks"
+      ],
+      "publication_url": "https://arxiv.org/abs/1410.3916",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1410.3916",
+        "openreview": null
+      },
+      "selection_reason": "可读写记忆与多跳QA框架的经典原始论文，后续End-To-End Memory Networks明确扩展；持续引用支持。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W4394655428",
+          "note": "OpenAlex 2026-10-19 snapshot: 545 indexed citations for the identity-matched work record; bibliographic year 2014. Counts are database coverage-dependent, may aggregate versions, and do not establish a unique classic ranking.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19",
+          "identity_match": [
+            "1410.3916"
+          ]
+        },
+        {
+          "url": "https://iclr.cc/archive/www/2015.html",
+          "note": "Official accepted main-conference list links this individual arXiv work. Establishes venue membership; the shared annual list is not an individual publication alias or evidence of lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1410.3916",
+        "version": "arXiv v11, 2015-11-29; post-conference author revision",
+        "format": "pdf",
+        "pages": 15,
+        "sha256": "978ecaac3081beb72db3a4c40ca6264eb542008d2ab6dfb7766e1456e2312e99",
+        "read_scope": "主文§1–6全文，图1–4、表1–3及图表注；PDF pp.1–10。附录各任务生成细节未逐项复核。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR34.md"
+    },
+    {
+      "id": "ICLR35",
+      "work_id": "openreview:S1eYHoC5FX",
+      "title": "DARTS: Differentiable Architecture Search",
+      "authors": [
+        "Liu, Hanxiao",
+        "Simonyan, Karen",
+        "Yang, Yiming"
+      ],
+      "year": 2019,
+      "conference_id": "iclr",
+      "track": "main",
+      "contribution_type": "methods",
+      "topics": [
+        "architecture-search"
+      ],
+      "publication_url": "https://openreview.net/forum?id=S1eYHoC5FX",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "1806.09055",
+        "openreview": "S1eYHoC5FX"
+      },
+      "selection_reason": "DARTS连续松弛架构搜索的经典原始论文，长期引用和后续可微搜索研究沿用；补足离散化及近似双层优化表达。",
+      "recognition_evidence": [
+        {
+          "url": "https://api.openalex.org/works/W2810075754",
+          "note": "OpenAlex 2026-10-19 identity-checked snapshot: 3252 indexed citations with a multi-year trajectory. May aggregate versions and reflects database coverage; no unique ranking is claimed.",
+          "kind": "bibliographic-citation-snapshot",
+          "checked_at": "2026-10-19"
+        },
+        {
+          "url": "https://openreview.net/forum?id=S1eYHoC5FX",
+          "note": "Official main-conference publication/accepted-paper identity. Establishes venue membership; does not by itself establish lasting recognition."
+        }
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1806.09055",
+        "version": "arXiv v2, 2019-04-23",
+        "format": "pdf",
+        "pages": 13,
+        "sha256": "81a65f80be6c954280a0eea679f6202eaf28d3d520d027c4857a770b8c12fdcf",
+        "read_scope": "主文§1–4全文，算法1、图1–6、表1–4及图表注；附录A.1及A.2.1；PDF pp.1–9,12。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICLR35.md"
+    }
+  ]
+}

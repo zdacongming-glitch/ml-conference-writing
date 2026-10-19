@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "conference_id": "neurips",
+  "conference": "NeurIPS / historical NIPS",
+  "checked_at": "2026-10-19",
+  "selection_policy": {
+    "core_target": 35,
+    "calibration_target": 2,
+    "year_range": [
+      2000,
+      2025
+    ],
+    "purpose": "Purposive writing corpus, not an objectively unique top-35 ranking or an inference about acceptance preferences.",
+    "selection_axes": [
+      "verified full conference proceedings identity and track",
+      "official Test of Time recognition where available",
+      "documented continued use or technical influence",
+      "topic, period, contribution and author-group coverage",
+      "distinct narrative tasks"
+    ],
+    "calibration": "Two separately identified 2025 main-track papers from the latest completed annual meeting; recent calibration is not Test of Time recognition.",
+    "reading": "Read means full main-text narrative, figures and captions read from the actual retrieved version; relevant appendices when stated. It does not mean line-by-line proof verification or reproduction.",
+    "deduplication": "Canonical neurips:year:officialhash; DOI and arXiv versions are aliases and never extra counts."
+  },
+  "papers": [
+    {
+      "id": "NEURIPS-C01",
+      "work_id": "neurips:2025:48b383b24230e0e6e649d9c98dae4d8c",
+      "title": "Large Language Diffusion Models",
+      "authors": [
+        "Shen Nie",
+        "Fengqi Zhu",
+        "Zebin You",
+        "Xiaolu Zhang",
+        "Jingyang Ou",
+        "Jun Hu",
+        "Jun Zhou",
+        "Yankai Lin",
+        "Ji-Rong Wen",
+        "Chongxuan Li"
+      ],
+      "year": 2025,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2025/hash/48b383b24230e0e6e649d9c98dae4d8c-Abstract-Conference.html",
+        "note": "Official page explicitly labels Main Conference Track."
+      },
+      "contribution_type": "methods",
+      "topics": [
+        "masked-diffusion",
+        "language-models",
+        "scaling",
+        "sampling-evaluation"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2025/hash/48b383b24230e0e6e649d9c98dae4d8c-Abstract-Conference.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2025/hash/48b383b24230e0e6e649d9c98dae4d8c-Abstract-Conference.html",
+        "doi": "10.52202/085713-1689"
+      },
+      "selection_reason": "2025最新已完成届次主轨校准，用于检验经典写法在新语言建模范式、规模对照、协议和成本上的适用范围，不列为长期经典。",
+      "recognition_evidence": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2025/hash/48b383b24230e0e6e649d9c98dae4d8c-Abstract-Conference.html",
+          "note": "官方正式页面明确Main Conference Track及2025归属，作为近期校准身份依据；不构成长时间认可证据，未声称获奖。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/48b383b24230e0e6e649d9c98dae4d8c-Paper-Conference.pdf",
+        "version": "Official NIPS/NeurIPS 2025 proceedings PDF",
+        "format": "pdf",
+        "pages": 39,
+        "sha256": "0dea659bdc80d73a316d2422e91507fe7c89a7f415d2ef40187ccd8cbe938e77",
+        "read_scope": "Official 39-page PDF pp.1–10 complete main narrative, Figures1–3/captions, Tables1–4 and dialogue; pp.25–34 A, B.1–B.8 formulation, data/training, sampling ablations, evaluation, efficiency and synthetic math read. Visually inspected pp.2,3,6,8,30,32. Extra cases pp.35–38 and numerical details p.39 not fully read; no replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS-C01.md"
+    },
+    {
+      "id": "NEURIPS-C02",
+      "work_id": "neurips:2025:537d5aa768c2d534016a4d06f87bc8fb",
+      "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+      "authors": [
+        "Yang Yue",
+        "Zhiqi Chen",
+        "Rui Lu",
+        "Andrew Zhao",
+        "Zhaokai Wang",
+        "Yang Yue",
+        "Shiji Song",
+        "Gao Huang"
+      ],
+      "year": 2025,
+      "conference_id": "neurips",
+      "track": "main",
+      "track_evidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2025/hash/537d5aa768c2d534016a4d06f87bc8fb-Abstract-Conference.html",
+        "note": "Official page explicitly labels Main Conference Track."
+      },
+      "contribution_type": "negative-results",
+      "topics": [
+        "rlvr",
+        "reasoning-evaluation",
+        "pass-at-k",
+        "sampling-coverage"
+      ],
+      "publication_url": "https://papers.nips.cc/paper_files/paper/2025/hash/537d5aa768c2d534016a4d06f87bc8fb-Abstract-Conference.html",
+      "identifiers": {
+        "proceedings_url": "https://papers.nips.cc/paper_files/paper/2025/hash/537d5aa768c2d534016a4d06f87bc8fb-Abstract-Conference.html",
+        "doi": "10.52202/085713-1933"
+      },
+      "selection_reason": "2025最新已完成届次、官方Runner-Up主轨校准，提供负结果、指标操作化与多重诊断的近期写作样本；不是长期认可判断。",
+      "recognition_evidence": [
+        {
+          "url": "https://blog.neurips.cc/2025/11/26/announcing-the-neurips-2025-best-paper-awards/",
+          "note": "官方2025 Best Paper Awards页面Runners Up明确列此文，并称赞负结果研究；当年奖项不等于Test of Time或对全部机制主张的独立验证。"
+        }
+      ],
+      "full_text": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/537d5aa768c2d534016a4d06f87bc8fb-Paper-Conference.pdf",
+        "version": "Official NIPS/NeurIPS 2025 proceedings PDF",
+        "format": "pdf",
+        "pages": 36,
+        "sha256": "4e4105170f543b356fabd983539c7f802f6b7f847269da1d020060162e05009f",
+        "read_scope": "Official PDF pp.1–11 complete main narrative and author contributions, Figures1–9/captions and Tables1–2; visually inspected pp.2,4,6–10. Appendices A–F pp.16–29 prose, captions, Tables3–6, two full CoT examples and prompts read; supplemental curves not all visually inspected. Distinct first/sixth Yang Yue authors retained as explicitly disambiguated on p.1. No proof theorem asserted or training replication.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/NEURIPS-C02.md"
+    }
+  ]
+}

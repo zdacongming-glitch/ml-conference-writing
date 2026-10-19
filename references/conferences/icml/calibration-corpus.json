@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "conference_id": "icml",
+  "conference": "International Conference on Machine Learning",
+  "checked_at": "2026-10-19",
+  "selection_policy": "35 篇 2000 年以来正式主会经典构成有来源支持的平衡样本，结合官方长期认可、可核验引用快照、方法沿用及写作类型覆盖；不声称客观唯一的前 35 名。另以最近已完成的 ICML 2026 两篇 Outstanding Paper 校准当前写法，近期奖不等同 test-of-time。版本、排除与覆盖局限见 selection-audit.md。",
+  "papers": [
+    {
+      "id": "ICML-C01",
+      "work_id": "pmlr:v306/ni26e",
+      "title": "The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models",
+      "authors": [
+        "Zanlin Ni",
+        "Shenzhi Wang",
+        "Yang Yue",
+        "Tianyu Yu",
+        "Weilin Zhao",
+        "Yeguo Hua",
+        "Tianyi Chen",
+        "Jun Song",
+        "Cheng Yu",
+        "Bo Zheng",
+        "Gao Huang"
+      ],
+      "year": 2026,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "empirical-study",
+      "topics": [
+        "diffusion-language-models",
+        "reinforcement-learning-post-training"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v306/ni26e.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v306/ni26e.html",
+        "doi": null,
+        "arxiv": "2601.15165"
+      },
+      "selection_reason": "ICML 2026 Outstanding Paper；作为近期实证和反直觉现象论证的校准，不作长期经典认证。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v306/ni26e.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/",
+          "note": "ICML 2026 Outstanding Paper；仅用于近期校准。"
+        },
+        {
+          "url": "https://openalex.org/W7125406378",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 0，2021–2025 年记录引用合计 0。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ni26e/ni26e.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 16,
+        "sha256": "7178f81df684c9a9f8f5dfec4dbdef50ffed71dc90bee01dea48ef9cb5708a3c",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–16 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。内附 A–D 全读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML-C01.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W7125406378",
+        "catalog_title": "The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models",
+        "catalog_publication_year": 2026,
+        "cited_by_count": 0,
+        "counts_by_year": [],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    },
+    {
+      "id": "ICML-C02",
+      "work_id": "pmlr:v306/chen26p",
+      "title": "High-Accuracy Sampling for Diffusion Models and Log-Concave Distributions",
+      "authors": [
+        "Fan Chen",
+        "Sinho Chewi",
+        "Constantinos Costis Daskalakis",
+        "Alexander Rakhlin"
+      ],
+      "year": 2026,
+      "conference_id": "icml",
+      "track": "main",
+      "contribution_type": "theory",
+      "topics": [
+        "diffusion-models",
+        "sampling-complexity",
+        "log-concave-sampling"
+      ],
+      "publication_url": "https://proceedings.mlr.press/v306/chen26p.html",
+      "identifiers": {
+        "proceedings_url": "https://proceedings.mlr.press/v306/chen26p.html",
+        "doi": null,
+        "arxiv": "2602.01338"
+      },
+      "selection_reason": "ICML 2026 Outstanding Paper；作为近期理论稿的 oracle 定义、精度复杂度和多情形结果组织校准。",
+      "recognition_evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v306/chen26p.html",
+          "note": "正式会议记录/作者出版清单及已核对全文用于核实题名、作者、年份和 ICML 主会归属；发表事实本身不等同影响力认证。"
+        },
+        {
+          "url": "https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/",
+          "note": "ICML 2026 Outstanding Paper；仅用于近期校准。"
+        },
+        {
+          "url": "https://openalex.org/W7127396172",
+          "note": "2026-10-19 获取的 OpenAlex 对应作品记录：总引用 0，2021–2025 年记录引用合计 0。单一目录快照可延迟/漏计，不代表唯一排名。"
+        }
+      ],
+      "full_text": {
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26p/chen26p.pdf",
+        "version": "official conference PDF",
+        "format": "pdf",
+        "pages": 35,
+        "sha256": "e7a52f3d0955cb37c1f72e8261bbf20a2a67ec56a590ddb5b97b526652b90fa1",
+        "hash_scope": "source_bytes",
+        "read_scope": "完整阅读本会议版本 PDF 第 1–35 页的主文叙述、算法/定理陈述、所有图表及图注、结尾与参考文献；关键图表/公式另经渲染核对。内附 A–F 全读。阅读不构成逐行证明审计或实验复现。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/ICML-C02.md",
+      "citation_snapshot": {
+        "checked_at": "2026-10-19",
+        "source_url": "https://openalex.org/W7127396172",
+        "catalog_title": "High-accuracy sampling for diffusion models and log-concave distributions",
+        "catalog_publication_year": 2026,
+        "cited_by_count": 0,
+        "counts_by_year": [],
+        "scope": "OpenAlex 单一作品记录快照；不与重印、期刊扩展或其他记录相加。年份采用正式 ICML 年份。"
+      }
+    }
+  ]
+}
